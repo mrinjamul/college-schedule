@@ -1,1 +1,1 @@
-This is my college [Schedule](https://mrinjamul.github.io/myschedule) bootstrapped with ReatJs.
+This is my college [Schedule](https://mrinjamul.github.io/myschedule) bootstrapped with ReactJs.
