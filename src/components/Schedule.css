@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    font-size: 11pt;
+    empty-cells: hide;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
