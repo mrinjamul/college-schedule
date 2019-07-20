@@ -1,5 +1,6 @@
 table {
-    width: 100%;
+    align-self: center;
+    width: 1080;
     font-size: 11pt;
     empty-cells: hide;
 }
