@@ -1,8 +1,10 @@
 html {
+    align-content: center;
     margin: 0;
     padding: 0;
 }
 body {
+    width: 1080px;
     font-family: 'Handlee', cursive;
     font-size: 13pt;
     background-color: #efefef;
