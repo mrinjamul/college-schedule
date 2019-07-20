@@ -1,7 +1,6 @@
 html {
-    align-content: center;
     margin: 0;
-    padding: 0;
+    padding: auto;
 }
 body {
     width: 1080px;
