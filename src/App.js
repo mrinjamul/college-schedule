@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Schedule />
-      <h3 className="copyright">Made with ❤  by Injamul Mohammad Mollah</h3>
+      <h3 className="copyright">Made with <font color="red">❤ </font> by Injamul Mohammad Mollah</h3>
      </div>
   );
 }
