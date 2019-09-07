@@ -50,11 +50,22 @@ class Schedule extends Component {
         let sday
         let sclass
         
-        if (hours < 12) {
+        if (5 < hours && hours < 12) {
           timeOfDay = "Morning"
-        } else if (hours >= 12 && hours < 17) {
+        } 
+        else if (hours >= 12 && hours < 17) {
           timeOfDay = "Afternoon"
-        } else {
+        } 
+        else if (hours > 17 && hours < 20) {
+            timeOfDay = "Evening"
+        }
+        else if (hours > 0 && hours < 2) {
+            timeOfDay = "Mid Night"
+        }
+        else if (hours > 4 && hours < 5) {
+            timeOfDay = "Dawn"
+        }
+        else {
           timeOfDay = "Night"
         }
 
