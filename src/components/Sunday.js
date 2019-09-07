@@ -16,13 +16,13 @@ function Sunday() {
                     <th>4:00pm - 5:00pm</th>
                 </tr>
                 <tr>
-                    <td>Sunday</td>
-                    <td>G4</td>
-                    <td>DISCRETE MATH<br/>(S.MONDAL)</td>
-                    <td>ELECTRONICS DEVICE & CKT</td>
-                    <td>C PROGRAMMING<br/>(S.DAS)</td>
-                    <td></td>
-                    <td colspan="3">DATA STRUCTURE LAB<br/>(AHM,S.PANDEY)</td>
+                  <td>Sunday</td>
+                  <td>G4</td>
+                  <td>DISCRETE MATH<br/>(S.MONDAL)</td>
+                  <td>ELECTRONICS DEVICE & CKT (SK) </td>
+                  <td>C PROGRAMMING<br/>(S.DAS)</td>
+                  <td></td>
+                  <td colspan="3">DATA STRUCTURE LAB<br/>(AHM,S.PANDEY)</td>
                 </tr>
             </table>
         </div>

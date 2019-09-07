@@ -16,15 +16,15 @@ function Tuesday() {
                     <th>4:00pm - 5:00pm</th>
                 </tr>
                 <tr>
-                        <td>Tuesday</td>
-                        <td>G4</td>
-                        <td>C PROGRAMMING<br/>(S.DAS)</td>
-                        <td>DIGITAL LOGIC DESIGN</td>
-                        <td>ELECTRONICS DEVICE & CKT</td>
-                        <td></td>
-                        <td>DISCRETE MATH<br/>(S.MONDAL)</td>
-                        <td colspan="2">ELECTRONICS DEVICE & CKT LAB</td>
-                    </tr>
+                  <td>Tuesday</td>
+                  <td>G4</td>
+                  <td>C PROGRAMMING<br/>(S.DAS)</td>
+                  <td>DIGITAL LOGIC DESIGN</td>
+                  <td>DISCRETE MATH<br/>(S.MONDAL)</td>
+                  <td></td> 
+                  <td>ELECTRONICS DEVICE & CKT (SK)</td> 
+                  <td colspan="2">ELECTRONICS DEVICE & CKT LAB (SK)</td>
+                </tr>
             </table>
         </div>
     );
