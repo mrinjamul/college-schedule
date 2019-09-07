@@ -16,6 +16,7 @@ table, th, td {
 button {
     background-color: black;
     border: none;
+    border-radius: 8px;
     color: white;
     padding: 15px 32px;
     text-align: center;
