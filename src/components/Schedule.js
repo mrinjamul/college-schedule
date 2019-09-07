@@ -20,7 +20,7 @@ class Schedule extends Component {
     
 
     render() {
-        const date = new Date("September 08, 2019 12:00:00")
+        const date = new Date()
         const day = date.getDay()
         const hours = date.getHours()
         const minute = date.getMinutes()
@@ -48,11 +48,62 @@ class Schedule extends Component {
         } else {
           timeOfDay = "Night"
         }
+
+        
         if (hours >= 0 && hours < 12 ) {
             am_pm = "AM"
         }
         else {
             am_pm = "PM"
+        }
+
+        let hr 
+        if (hours === 0) {
+            hr = "12"
+        }
+        else if (hours === 13 || hours === 1 ) {
+            hr = "01"
+        }
+        else if (hours === 14 || hours === 2 ) {
+            hr = "02"
+        }
+        else if (hours === 15 || hours === 3 ) {
+            hr = "03"
+        }
+        else if (hours === 16 || hours === 4 ) {
+            hr = "04"
+        }
+        else if (hours === 17 || hours === 5 ) {
+            hr = "05"
+        }
+        else if (hours === 18 || hours === 6 ) {
+            hr = "06"
+        }
+        else if (hours === 19 || hours === 7 ) {
+            hr = "07"
+        }
+        else if (hours === 20 || hours === 8 ) {
+            hr = "08"
+        }
+        else if (hours === 21 || hours === 9 ) {
+            hr = "09"
+        }
+        else if (hours === 22 ) {
+            hr = "10"
+        }
+        else if (hours === 23 ) {
+            hr = "11"
+        }
+        else {
+            hr = hours
+        }
+
+        let min 
+        if (minute === 0) {
+            min = "00"
+        }
+        else {
+            min = minute
         }
 
         if (day === 0) {
@@ -185,7 +236,7 @@ class Schedule extends Component {
 
             <div className="section">
                 <h1><span>My College Schedule</span></h1>
-                <h1>Time: {hours}:{minute} {am_pm} ,  {timeOfDay} </h1>
+                <h1>Time: {hr}:{min} {am_pm} ,  {timeOfDay} </h1>
                 <h1>Now : {sclass}</h1>
                 {sday}
                 
