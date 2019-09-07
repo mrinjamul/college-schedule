@@ -25,7 +25,8 @@ button {
     font-size: 16px;
 }
 .selected {
-    background-color: #f36f48;
+    /* background-color: #f36f48; */
+    background-color: black;
     font-weight: bold;
     color: white;
 }
