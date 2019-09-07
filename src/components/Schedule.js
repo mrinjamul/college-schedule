@@ -20,7 +20,7 @@ class Schedule extends Component {
     
 
     render() {
-        const date = new Date("September 12, 2019 10:00:00")
+        const date = new Date()
         const day = date.getDay()
         const hours = date.getHours()
         const minute = date.getMinutes()
