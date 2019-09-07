@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Fschedule from './Fschedule';
 import Sunday from './Sunday';
 import Monday from './Monday';
 import Tuesday from './Tuesday';
@@ -14,10 +15,18 @@ class Schedule extends Component {
     constructor() {
         super()
         this.state = {
-
+            fullView: false
         }
+
     }
-    
+        handleClick = () => {
+        this.setState(prevState => {
+            return {
+                fullView: !prevState.fullView
+            }
+        })
+    }
+
 
     render() {
         const date = new Date()
@@ -229,7 +238,11 @@ class Schedule extends Component {
             sclass = "No class available right now !"
         }
 
-
+        let value = this.state.fullView
+        let sed 
+        if (value === true) {
+            sed = <Fschedule />
+        }
 
 
         return (
@@ -238,7 +251,9 @@ class Schedule extends Component {
                 <h1><span>My College Schedule</span></h1>
                 <h1>Time: {hr}:{min} {am_pm} ,  {timeOfDay} </h1>
                 <h1>Now : {sclass}</h1>
-                {sday}
+                {sday} <br/>
+                <button onClick={this.handleClick}>View Full Schedule</button>
+                {sed}
                 
             </div>
 
