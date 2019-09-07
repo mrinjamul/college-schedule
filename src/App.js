@@ -27,7 +27,8 @@ class App extends Component {
         <Loading /> :
         <div>
           <Schedule />
-          <h3 className="copyright">Made with <font color="red"><b>❤ </b></font> by Injamul Mohammad Mollah</h3>
+            <h3 className="copyright"> UPDATED ON 1ST AUGUST 2019. </h3> 
+            <h3 className="copyright">Made with <font color="red"><b>❤ </b></font> by Injamul Mohammad Mollah</h3>
         </div>
         }
        </div>

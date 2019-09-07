@@ -41,10 +41,10 @@ function Schedule() {
                   <td>G4</td>
                   <td>C PROGRAMMING<br/>(S.DAS)</td>
                   <td>DIGITAL LOGIC DESIGN</td>
-                  <td>ELECTRONICS DEVICE & CKT</td>
-                  <td></td>
                   <td>DISCRETE MATH<br/>(S.MONDAL)</td>
-                  <td colspan="2">ELECTRONICS DEVICE & CKT LAB</td>
+                  <td></td> 
+                  <td>ELECTRONICS DEVICE & CKT (SK)</td> 
+                  <td colspan="2">ELECTRONICS DEVICE & CKT LAB (SK)</td>
               </tr>
               <tr>
                   <td>Wednesday</td>
@@ -53,8 +53,8 @@ function Schedule() {
                   <td className="selected" colspan="2">PROFESSIONAL PRACTICE-I<br/>(S.PANDEY)</td>
                   <td></td>
                   <td className="selected">COMPUTER ORG. & ARCHITECTURE<br/>(MGR)</td>
-                  <td className="selected">ELECTRONICS DEVICE & CKT</td>
-                  <td className="selected">DIGITAL LOGIC DESIGN</td>
+                  <td className="selected">DIGITAL LOGIC DESIGN (S DAS)</td> 
+                  <td className="selected">ELECTRONICS DEVICE & CKT (SK)</td>
               </tr>
               <tr>
                   <td>Thursday</td>
