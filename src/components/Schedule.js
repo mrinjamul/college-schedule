@@ -111,6 +111,33 @@ class Schedule extends Component {
         if (minute === 0) {
             min = "00"
         }
+        else if (minute === 1) {
+            min = "01"
+        }
+        else if (minute === 2) {
+            min = "02"
+        }
+        else if (minute === 3) {
+            min = "03"
+        }
+        else if (minute === 4) {
+            min = "04"
+        }
+        else if (minute === 5) {
+            min = "05"
+        }
+        else if (minute === 6) {
+            min = "06"
+        }
+        else if (minute === 7) {
+            min = "07"
+        }
+        else if (minute === 8) {
+            min = "08"
+        }
+        else if (minute === 9) {
+            min = "09"
+        }
         else {
             min = minute
         }
