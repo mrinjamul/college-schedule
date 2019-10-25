@@ -1,39 +1,16 @@
-import React, {Component} from 'react';
-import Loading from "./components/Loading"
+import React from 'react';
 import Schedule from './components/Schedule';
 
 import './App.css';
 
 
-class App extends Component {
-   constructor() {
-     super()
-     this.state = {
-       isLoading: true
-     }
-   }
-   componentDidMount() {
-       setTimeout(() => {
-           this.setState({
-               isLoading: false
-           })
-       }, 1500)
-   }
-
-  render() {
-      return (
-      <div className="App">
-        {this.state.isLoading ?
-        <Loading /> :
-        <div>
-          <Schedule />
-            <h3 className="copyright"> UPDATED ON 1ST AUGUST 2019. </h3> 
-            <h3 className="copyright">Made with <font color="red"><b>❤ </b></font> by Injamul Mohammad Mollah</h3>
-        </div>
-        }
-       </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Schedule />
+      <h3 className="copyright">Made with <font color="red"><b>❤ </b></font> by Injamul Mohammad Mollah</h3>
+     </div>
+  );
 }
 
 export default App;

@@ -3,25 +3,13 @@ html {
     padding: auto;
 }
 body {
-    text-align: center;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    justify-content: center;
-    position: absolute;
-    width: 1280px;
+    width: 1080px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 13pt;
     background-color: #efefef;
     padding: 10px;
     margin: 0;
 }
-.App {
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-}
-
 h1 {
     font-size: 15pt;
     color: #20bcd5;
