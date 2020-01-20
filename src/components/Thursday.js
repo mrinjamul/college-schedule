@@ -17,13 +17,11 @@ function Thursday() {
                 </tr>
                 <tr>
                   <td>Thursday</td>
-                  <td>G4</td>
-                  <td>DATA STRUCTURE<br/>(AHM)</td>
-                  <td>DIGITAL LOGIC DESIGN</td>
-                  <td>DISCRETE MATH<br/>(S.MONDAL)</td>
                   <td></td>
-                  <td>COMPUTER ORG. & ARCHITECTURE<br/>(MGR)</td>
-                  <td colspan="2">DIGITAL LOGIC DESIGN LAB</td>
+                  <td>MICROPROCESSOR & PROGRAMMING<br/>(AI)</td>
+                  <td colspan="2">COMPUTER GRAPHICS LAB<br/>(AHM)</td>
+                  <td></td>
+                  <td colspan="3">RELATIONAL DATA BASE MANAGEMENT SYSTEMS LAB<br/>(FBA)</td>
                 </tr>
             </table>
         </div>
