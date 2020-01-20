@@ -17,12 +17,13 @@ function Monday() {
                 </tr>
                 <tr>
                   <td>Monday</td>
-                  <td className="selected">G4</td>
-                  <td className="selected">COMPUTER ORG. & ARCHITECTURE<br/>(MGR)</td>
-                  <td className="selected">DATA STRUCTURE<br/>(AHM)</td>
-                  <td className="selected">C PROGRAMMING<br/>(S.DAS)</td>
+                  <td className="selected">F1</td>
+                  <td className="selected">MICROPROCESSOR & PROGRAMMING<br/>(AI)</td>
+                  <td className="selected" colspan="2">COMPUTER NETWORK LAB<br/>(MR)</td>
                   <td></td>
-                  <td className="selected" colspan="3">C PROGRAMMING LAB<br/>(S.DAS)</td>
+                  <td className="selected">OBJECT ORIENTED PROGRAMMING<br/>(S.DAS)</td>
+                  <td className="selected">COMPUTER NETWORK<br/>(MR)</td>
+                  <td className="selected">DLS-II<br/>(ARM)(S1)</td>
                 </tr>
             </table>
         </div>
