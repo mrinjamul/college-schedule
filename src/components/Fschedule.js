@@ -46,7 +46,7 @@ function Schedule() {
                   <td>RELATIONAL DATA BASE MANAGEMENT SYSTEMS<br/>(FBA)</td>
                   <td></td> 
                   <td>COMPUTER GRAPHICS<br/>(AHM)</td> 
-                  <td colspan="2">PROFESSIONAL PRACTICE<br/>(SP)</td>
+                  <td colspan="2">PROFESSIONAL PRACTICE - II<br/>(SP)</td>
               </tr>
               <tr>
                   <td>Wednesday</td>
