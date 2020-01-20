@@ -156,19 +156,22 @@ class Schedule extends Component {
         if (day === 0) {
             sday = <Sunday />
             if ( ten_half <= now && now < eleven_half ) {
-                sclass = "Discrete Maths (Satyen Mondal)"
+                sclass = "Object Oriented Programming (S Das)"
             }
             else if (eleven_half <= now && now < twelve_half) {
-                sclass = "Electronics Device and Circuits (SK)"
+                sclass = "Computer Network (MR)"
             }
             else if (twelve_half <= now && now < thirteen_half) {
-                sclass = "C Programming (S Das)"
+                sclass = "Relational Data Base Management Systems (FBA)"
             }
             else if (thirteen_half <= now && now < fourteen) {
                 sclass = "Break Time"
             }
-            else if (fourteen <= now && now <= seventeen) {
-                sclass = "Data Structure Lab (AHM,S Pandey)"
+            else if (fourteen <= now && now < fifteen) {
+                sclass = "Computer Graphics (AHM)"
+            }
+            else if (fifteen <= now && now <= seventeen) {
+                sclass = "Object Oriented Programming Lab (S Das)"
             }
             else {
                 sclass = "No class available right now !"
@@ -177,19 +180,22 @@ class Schedule extends Component {
         else if (day === 1) {
             sday = <Monday />
             if ( ten_half <= now && now < eleven_half ) {
-                sclass = "Computer Organization and Architechture (MGR)"
+                sclass = "Microprocessor & Programing (AI)"
             }
-            else if (eleven_half <= now && now < twelve_half) {
-                sclass = "Data Structure (AHM)"
-            }
-            else if (twelve_half <= now && now < thirteen_half) {
-                sclass = "C Programming (S Das)"
+            else if (eleven_half <= now && now < thirteen_half) {
+                sclass = "Computer Network Lab (MR)"
             }
             else if (thirteen_half <= now && now < fourteen) {
                 sclass = "Break Time"
             }
-            else if (fourteen <= now && now <= seventeen) {
-                sclass = "C Programming Lab (S Das)"
+            else if (fourteen <= now && now <= fifteen) {
+                sclass = "Object Oriented Programming (S Das)"
+            }
+            else if (fifteen <= now && now <= sixteen) {
+                sclass = "Computer Network (MR)"
+            }
+            else if (sixteen <= now && now <= seventeen) {
+                sclass = "DLS-II (ARM)(S1)"
             }
             else {
                 sclass = "No class available right now !"
@@ -198,22 +204,22 @@ class Schedule extends Component {
         else if (day === 2) {
             sday = <Tuesday />
             if ( ten_half <= now && now < eleven_half ) {
-                sclass = "C Programming (S Das)"
+                sclass = "Object Oriented Programming (S Das)"
             }
             else if (eleven_half <= now && now < twelve_half) {
-                sclass = "Digital Logic Design"
+                sclass = "Computer Network (MR)"
             }
             else if (twelve_half <= now && now < thirteen_half) {
-                sclass = "Discrete Maths (Satyen Mondal)"
+                sclass = "Relational Data Base Management Systems (FBA)"
             }
             else if (thirteen_half <= now && now < fourteen) {
                 sclass = "Break Time"
             }
             else if (fourteen <= now && now < fifteen) {
-                sclass = "Electronics Device and Circuits (SK)"
+                sclass = "Computer Graphics (AHM)"
             }
-            else if (fourteen <= now && now <= seventeen) {
-                sclass = "Electronics Device and Circuits Lab (SK)"
+            else if (fifteen <= now && now <= seventeen) {
+                sclass = "Proffessional Practice-II (SP)"
             }
             else {
                 sclass = "No class available right now !"
@@ -221,23 +227,23 @@ class Schedule extends Component {
         }
         else if (day === 3) {
             sday = <Wednesday />
-            if ( ten_half <= now && now < eleven_half ) {
-                sclass = "Data Structure (AHM)"
+            if ( ten_half <= now && now < twelve_half ) {
+                sclass = "Microprocessor & Programming Lab (AI)"
             }
-            else if (eleven_half <= now && now < thirteen_half) {
-                sclass = "Professional Practise I (S Pandey)"
+            else if (twelve_half <= now && now < thirteen_half) {
+                sclass = "Computer Graphics (AHM)(S1)"
             }
             else if (thirteen_half <= now && now <= fourteen) {
                 sclass = "Break Time"
             }
             else if (fourteen <= now && now < fifteen) {
-                sclass = "Computer Organization and Architechture (MGR)"
+                sclass = "Microprocessor & Programming (AI)"
             }
             else if (fifteen <= now && now < sixteen) {
-                sclass = "Digital Logic Design (S Das)"
+                sclass = "DLS-II (ARM)(S1)"
             }
             else if (sixteen <= now && now <= seventeen) {
-                sclass = "Electronics Device and Circuits (SK)"
+                sclass = "Relational Data Base Management Systems (FBA)"
             }
             else {
                 sclass = "No class available right now !"
@@ -246,22 +252,16 @@ class Schedule extends Component {
         else if (day === 4) {
             sday = <Thursday />
             if ( ten_half <= now && now < eleven_half ) {
-                sclass = "Data Structure (AHM)"
+                sclass = "Microprocessor & Programming (AI)"
             }
-            else if (eleven_half <= now && now < twelve_half) {
-                sclass = "Digital Logic Design "
-            }
-            else if (twelve_half <= now && now < thirteen_half) {
-                sclass = "Discrete Math (S Mondal)"
+            else if (eleven_half <= now && now < thirteen_half) {
+                sclass = "Computer Graphics Lab (AHM)"
             }
             else if (thirteen_half <= now && now < fourteen) {
                 sclass = "Break Time"
             }
-            else if (fourteen <= now && now < fifteen) {
-                sclass = "Computer Organization and Architechture (MGR)"
-            }
-            else if (fifteen <= now && now <= seventeen) {
-                sclass = "Digital Logic Design Lab (S Das)"
+            else if (fourteen <= now && now < seventeen) {
+                sclass = "Relational Data Base Management Systems Lab (FBA)"
             }
             else {
                 sclass = "No class available right now !"
