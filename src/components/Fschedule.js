@@ -20,51 +20,51 @@ function Schedule() {
               </tr>
               <tr>
                   <td>Sunday</td>
-                  <td>G4</td>
-                  <td>DISCRETE MATH<br/>(S.MONDAL)</td>
-                  <td>ELECTRONICS DEVICE & CKT</td>
-                  <td>C PROGRAMMING<br/>(S.DAS)</td>
+                  <td>F1</td>
+                  <td>OBJECT ORIENTED PROGRAMMING<br/>(S.DAS)</td>
+                  <td>COMPUTER NETWORK<br/>(MR)</td>
+                  <td>RELATIONAL DATA BASE MANAGEMENT SYSTEMS<br/>(FBA)</td>
                   <td></td>
-                  <td colspan="3">DATA STRUCTURE LAB<br/>(AHM,S.PANDEY)</td>
+                  <td>COMPUTER GRAPHICS<br/>(AHM)</td>
+                  <td colspan="2">OBJECT ORIENTED PROGRAMMING LAB<br/>(S.DAS)</td>
               </tr>
               <tr>
                   <td>Monday</td>
-                  <td className="selected">G4</td>
-                  <td className="selected">COMPUTER ORG. & ARCHITECTURE<br/>(MGR)</td>
-                  <td className="selected">DATA STRUCTURE<br/>(AHM)</td>
-                  <td className="selected">C PROGRAMMING<br/>(S.DAS)</td>
+                  <td className="selected">F1</td>
+                  <td className="selected">MICROPROCESSOR & PROGRAMMING<br/>(AI)</td>
+                  <td className="selected" colspan="2">COMPUTER NETWORK LAB<br/>(MR)</td>
                   <td></td>
-                  <td className="selected" colspan="3">C PROGRAMMING LAB<br/>(S.DAS)</td>
+                  <td className="selected">COMPUTER ORIENTED PROGRAMMING<br/>(S.DAS)</td>
+                  <td className="selected">COMPUTER NETWORK<br/>(MR)</td>
+                  <td className="selected">DLS-II<br/>(ARM)(S1)</td>
               </tr>
               <tr>
                   <td>Tuesday</td>
-                  <td>G4</td>
-                  <td>C PROGRAMMING<br/>(S.DAS)</td>
-                  <td>DIGITAL LOGIC DESIGN</td>
-                  <td>DISCRETE MATH<br/>(S.MONDAL)</td>
+                  <td>F1</td>
+                  <td>COMPUTER ORIENTED PROGRAMMING<br/>(S.DAS)</td>
+                  <td>COMPUTER NETWORK<br/>(MR)</td>
+                  <td>RELATIONAL DATA BASE MANAGEMENT SYSTEMS<br/>(FBA)</td>
                   <td></td> 
-                  <td>ELECTRONICS DEVICE & CKT (SK)</td> 
-                  <td colspan="2">ELECTRONICS DEVICE & CKT LAB (SK)</td>
+                  <td>COMPUTER GRAPHICS<br/>(AHM)</td> 
+                  <td colspan="2">PROFESSIONAL PRACTICE<br/>(SP)</td>
               </tr>
               <tr>
                   <td>Wednesday</td>
-                  <td className="selected">G4</td>
-                  <td className="selected">DATA STRUCTURE<br/>(AHM)</td>
-                  <td className="selected" colspan="2">PROFESSIONAL PRACTICE-I<br/>(S.PANDEY)</td>
+                  <td className="selected">&#8680;</td>
+                  <td className="selected" colspan="2">MICROPROCESSOR & PROGRAMMING LAB<br/>(AI)</td>
+                  <td className="selected">COMPUTER GRAPHICS<br/>(AHM)(S1)</td>
                   <td></td>
-                  <td className="selected">COMPUTER ORG. & ARCHITECTURE<br/>(MGR)</td>
-                  <td className="selected">DIGITAL LOGIC DESIGN (S DAS)</td> 
-                  <td className="selected">ELECTRONICS DEVICE & CKT (SK)</td>
+                  <td className="selected">MICROPROCESSOR & PROGRAMMING<br/>(AI)</td>
+                  <td className="selected">DLS-II <br/>(ARM)(S1)</td> 
+                  <td className="selected">RELATIONAL DATA BASE MANAGEMENT SYSTEMS<br/>(FBA)</td>
               </tr>
               <tr>
                   <td>Thursday</td>
-                  <td>G4</td>
-                  <td>DATA STRUCTURE<br/>(AHM)</td>
-                  <td>DIGITAL LOGIC DESIGN</td>
-                  <td>DISCRETE MATH<br/>(S.MONDAL)</td>
                   <td></td>
-                  <td>COMPUTER ORG. & ARCHITECTURE<br/>(MGR)</td>
-                  <td colspan="2">DIGITAL LOGIC DESIGN LAB</td>
+                  <td>MICROPROCESSOR & PROGRAMMING<br/>(AI)</td>
+                  <td colspan="2">COMPUTER GRAPHICS LAB<br/>(AHM)</td>
+                  <td></td>
+                  <td colspan="3">RELATIONAL DATA BASE MANAGEMENT SYSTEMS LAB<br/>(FBA)</td>
               </tr>
           </table>
       </div>
