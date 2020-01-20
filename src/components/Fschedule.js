@@ -34,14 +34,14 @@ function Schedule() {
                   <td className="selected">MICROPROCESSOR & PROGRAMMING<br/>(AI)</td>
                   <td className="selected" colspan="2">COMPUTER NETWORK LAB<br/>(MR)</td>
                   <td></td>
-                  <td className="selected">COMPUTER ORIENTED PROGRAMMING<br/>(S.DAS)</td>
+                  <td className="selected">OBJECT ORIENTED PROGRAMMING<br/>(S.DAS)</td>
                   <td className="selected">COMPUTER NETWORK<br/>(MR)</td>
                   <td className="selected">DLS-II<br/>(ARM)(S1)</td>
               </tr>
               <tr>
                   <td>Tuesday</td>
                   <td>F1</td>
-                  <td>COMPUTER ORIENTED PROGRAMMING<br/>(S.DAS)</td>
+                  <td>OBJECT ORIENTED PROGRAMMING<br/>(S.DAS)</td>
                   <td>COMPUTER NETWORK<br/>(MR)</td>
                   <td>RELATIONAL DATA BASE MANAGEMENT SYSTEMS<br/>(FBA)</td>
                   <td></td> 
