@@ -15,16 +15,36 @@ class Schedule extends Component {
     constructor() {
         super()
         this.state = {
-            fullView: false
+            fullView: false,
+            displayTime: "HH:MM:SS AMPM"
         }
 
+        var t=setInterval(()=>{
+            const time=new Date();
+            var hh=time.getHours();
+            var mm=time.getMinutes();
+            var ss=time.getSeconds();
+
+            var ampm=hh>=12?"PM":"AM";
+            hh=hh>12?hh-12:hh;
+            hh=hh<10?'0'+hh:hh;
+            mm=mm<10?'0'+mm:mm;
+            ss=ss<10?'0'+ss:ss;
+
+            this.setState({
+                displayTime: ss%2==0?hh+":"+mm+":"+ss+" "+ampm:hh+" "+mm+" "+ss+" "+ampm
+            });
+        }, 500);
+
     }
-        handleClick = () => {
+
+
+    handleClick = () => {
         this.setState(prevState => {
             return {
                 fullView: !prevState.fullView
             }
-        })
+        });
     }
 
 
@@ -287,7 +307,7 @@ class Schedule extends Component {
 
             <div className="section">
                 <h1><span>My College Schedule</span></h1>
-                <h1>Time: {hr}:{min} {am_pm} ,  {timeOfDay} </h1>
+                <h1>Time: {this.state.displayTime} ,  {timeOfDay} </h1>
                 <h1>Now : {sclass}</h1>
                 {sday} <br/>
                 <button onClick={this.handleClick}>View Full Schedule</button>
