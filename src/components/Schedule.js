@@ -19,7 +19,7 @@ class Schedule extends Component {
             displayTime: "HH:MM:SS AMPM"
         }
 
-        var t=setInterval(()=>{
+        setInterval(()=>{
             const time=new Date();
             var hh=time.getHours();
             var mm=time.getMinutes();
@@ -32,7 +32,7 @@ class Schedule extends Component {
             ss=ss<10?'0'+ss:ss;
 
             this.setState({
-                displayTime: ss%2==0?hh+":"+mm+":"+ss+" "+ampm:hh+" "+mm+" "+ss+" "+ampm
+                displayTime: ss%2===0?hh+":"+mm+":"+ss+" "+ampm:hh+" "+mm+" "+ss+" "+ampm
             });
         }, 500);
 
@@ -52,8 +52,6 @@ class Schedule extends Component {
         const date = new Date()
         const day = date.getDay()
         const hours = date.getHours()
-        const minute = date.getMinutes()
-
 
         const now = date.getHours() * 60 + date.getMinutes();
         const ten_half = 10 * 60 + 30;
@@ -66,7 +64,6 @@ class Schedule extends Component {
         const seventeen = 17 * 60 ;
 
         let timeOfDay
-        let am_pm
         let sday
         let sclass
         
@@ -87,90 +84,6 @@ class Schedule extends Component {
         }
         else {
           timeOfDay = "Night"
-        }
-
-        
-        if (hours >= 0 && hours < 12 ) {
-            am_pm = "AM"
-        }
-        else {
-            am_pm = "PM"
-        }
-
-        let hr 
-        if (hours === 0) {
-            hr = "12"
-        }
-        else if (hours === 13 || hours === 1 ) {
-            hr = "01"
-        }
-        else if (hours === 14 || hours === 2 ) {
-            hr = "02"
-        }
-        else if (hours === 15 || hours === 3 ) {
-            hr = "03"
-        }
-        else if (hours === 16 || hours === 4 ) {
-            hr = "04"
-        }
-        else if (hours === 17 || hours === 5 ) {
-            hr = "05"
-        }
-        else if (hours === 18 || hours === 6 ) {
-            hr = "06"
-        }
-        else if (hours === 19 || hours === 7 ) {
-            hr = "07"
-        }
-        else if (hours === 20 || hours === 8 ) {
-            hr = "08"
-        }
-        else if (hours === 21 || hours === 9 ) {
-            hr = "09"
-        }
-        else if (hours === 22 ) {
-            hr = "10"
-        }
-        else if (hours === 23 ) {
-            hr = "11"
-        }
-        else {
-            hr = hours
-        }
-
-        let min 
-        if (minute === 0) {
-            min = "00"
-        }
-        else if (minute === 1) {
-            min = "01"
-        }
-        else if (minute === 2) {
-            min = "02"
-        }
-        else if (minute === 3) {
-            min = "03"
-        }
-        else if (minute === 4) {
-            min = "04"
-        }
-        else if (minute === 5) {
-            min = "05"
-        }
-        else if (minute === 6) {
-            min = "06"
-        }
-        else if (minute === 7) {
-            min = "07"
-        }
-        else if (minute === 8) {
-            min = "08"
-        }
-        else if (minute === 9) {
-            min = "09"
-        }
-        else {
-            min = minute
         }
 
         if (day === 0) {
