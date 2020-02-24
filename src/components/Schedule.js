@@ -66,6 +66,29 @@ class Schedule extends Component {
         let timeOfDay
         let sday
         let sclass
+        // const room = [
+        //     ' ',
+        //     'F1',
+        //     'S1',
+        //     '⇨',
+        // ];
+        const classes = [
+            ' ',
+            'MICROPROCESSOR & PROGRAMMING (AI)',
+            'MICROPROCESSOR & PROGRAMMING LAB (AI)',
+            'COMPUTER NETWORK (MR)',
+            'COMPUTER NETWORK LAB (MR)',
+            'RELATIONAL DATA BASE MANAGEMENT SYSTEMS (FBA)',
+            'RELATIONAL DATA BASE MANAGEMENT SYSTEMS LAB (FBA)',
+            'OBJECT ORIENTED PROGRAMMING (S.DAS)',
+            'OBJECT ORIENTED PROGRAMMING LAB (S.DAS)',
+            'COMPUTER GRAPHICS (AHM)',
+            'COMPUTER GRAPHICS LAB (AHM)',
+            'PROFESSIONAL PRACTICE - II (SP)',
+            'DLS-II (ARM)',
+            'Break Time',
+            'No class available right now !',
+        ];
         
         if (5 < hours && hours < 12) {
           timeOfDay = "Morning"
@@ -89,124 +112,124 @@ class Schedule extends Component {
         if (day === 0) {
             sday = <Sunday />
             if ( ten_half <= now && now < eleven_half ) {
-                sclass = "Object Oriented Programming (S Das)"
+                sclass = classes[7]
             }
             else if (eleven_half <= now && now < twelve_half) {
-                sclass = "Computer Network (MR)"
+                sclass = classes[3]
             }
             else if (twelve_half <= now && now < thirteen_half) {
-                sclass = "Relational Data Base Management Systems (FBA)"
+                sclass = classes[5]
             }
             else if (thirteen_half <= now && now < fourteen) {
-                sclass = "Break Time"
+                sclass = classes[13]
             }
             else if (fourteen <= now && now < fifteen) {
-                sclass = "Computer Graphics (AHM)"
+                sclass = classes[9]
             }
             else if (fifteen <= now && now <= seventeen) {
-                sclass = "Object Oriented Programming Lab (S Das)"
+                sclass = classes[8]
             }
             else {
-                sclass = "No class available right now !"
+                sclass = classes[14]
             }
         }
         else if (day === 1) {
             sday = <Monday />
             if ( ten_half <= now && now < eleven_half ) {
-                sclass = "Microprocessor & Programing (AI)"
+                sclass = classes[1];
             }
             else if (eleven_half <= now && now < thirteen_half) {
-                sclass = "Computer Network Lab (MR)"
+                sclass = classes[4]
             }
             else if (thirteen_half <= now && now < fourteen) {
-                sclass = "Break Time"
+                sclass = classes[13]
             }
             else if (fourteen <= now && now <= fifteen) {
-                sclass = "Object Oriented Programming (S Das)"
+                sclass = classes[7]
             }
             else if (fifteen <= now && now <= sixteen) {
-                sclass = "Computer Network (MR)"
+                sclass = classes[3]
             }
             else if (sixteen <= now && now <= seventeen) {
-                sclass = "DLS-II (ARM)(S1)"
+                sclass = classes[12]
             }
             else {
-                sclass = "No class available right now !"
+                sclass = classes[14]
             }
         }
         else if (day === 2) {
             sday = <Tuesday />
             if ( ten_half <= now && now < eleven_half ) {
-                sclass = "Object Oriented Programming (S Das)"
+                sclass = classes[7]
             }
             else if (eleven_half <= now && now < twelve_half) {
-                sclass = "Computer Network (MR)"
+                sclass = classes[3]
             }
             else if (twelve_half <= now && now < thirteen_half) {
-                sclass = "Relational Data Base Management Systems (FBA)"
+                sclass = classes[5]
             }
             else if (thirteen_half <= now && now < fourteen) {
-                sclass = "Break Time"
+                sclass = classes[13]
             }
             else if (fourteen <= now && now < fifteen) {
-                sclass = "Computer Graphics (AHM)"
+                sclass = classes[3]
             }
             else if (fifteen <= now && now <= seventeen) {
-                sclass = "Proffessional Practice-II (SP)"
+                sclass = classes[11]
             }
             else {
-                sclass = "No class available right now !"
+                sclass = classes[14]
             }
         }
         else if (day === 3) {
             sday = <Wednesday />
             if ( ten_half <= now && now < twelve_half ) {
-                sclass = "Microprocessor & Programming Lab (AI)"
+                sclass = classes[2]
             }
             else if (twelve_half <= now && now < thirteen_half) {
-                sclass = "Computer Graphics (AHM)(S1)"
+                sclass = classes[9]
             }
             else if (thirteen_half <= now && now <= fourteen) {
-                sclass = "Break Time"
+                sclass = classes[13]
             }
             else if (fourteen <= now && now < fifteen) {
-                sclass = "Microprocessor & Programming (AI)"
+                sclass = classes[1]
             }
             else if (fifteen <= now && now < sixteen) {
-                sclass = "DLS-II (ARM)(S1)"
+                sclass = classes[12]
             }
             else if (sixteen <= now && now <= seventeen) {
-                sclass = "Relational Data Base Management Systems (FBA)"
+                sclass = classes[5]
             }
             else {
-                sclass = "No class available right now !"
+                sclass = classes[14]
             }
         }
         else if (day === 4) {
             sday = <Thursday />
             if ( ten_half <= now && now < eleven_half ) {
-                sclass = "Microprocessor & Programming (AI)"
+                sclass = classes[1]
             }
             else if (eleven_half <= now && now < thirteen_half) {
-                sclass = "Computer Graphics Lab (AHM)"
+                sclass = classes[10]
             }
             else if (thirteen_half <= now && now < fourteen) {
-                sclass = "Break Time"
+                sclass = classes[13]
             }
             else if (fourteen <= now && now < seventeen) {
-                sclass = "Relational Data Base Management Systems Lab (FBA)"
+                sclass = classes[6]
             }
             else {
-                sclass = "No class available right now !"
+                sclass = classes[14]
             }
         }
         else if (day === 5) {
             sday = <Friday />
-            sclass = "No class available right now !"
+            sclass = classes[14]
         }
         else {
             sday = <Saturday />
-            sclass = "No class available right now !"
+            sclass = classes[14]
         }
 
         let value = this.state.fullView
