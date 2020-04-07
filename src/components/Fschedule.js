@@ -3,6 +3,32 @@ import React from 'react';
 import './Schedule.css';
 
 function Schedule() {
+        const room = [
+            ' ',
+            'F1',
+            'S1',
+            '⇨',
+        ];
+        // const classes = [
+        //     ' ',
+        //     'MICROPROCESSOR & PROGRAMMING (AI)',
+        //     'MICROPROCESSOR & PROGRAMMING LAB (AI)',
+        //     'COMPUTER NETWORK (MR)',
+        //     'COMPUTER NETWORK LAB (MR)',
+        //     'RELATIONAL DATA BASE MANAGEMENT SYSTEMS (FBA)',
+        //     'RELATIONAL DATA BASE MANAGEMENT SYSTEMS LAB (FBA)',
+        //     'OBJECT ORIENTED PROGRAMMING (S.DAS)',
+        //     'OBJECT ORIENTED PROGRAMMING LAB (S.DAS)',
+        //     'COMPUTER GRAPHICS (AHM)',
+        //     'COMPUTER GRAPHICS LAB (AHM)',
+        //     'PROFESSIONAL PRACTICE - II (SP)',
+        //     'DLS-II (ARM)',
+        // ];
+    
+    let r1 = room[1];
+    // let r2 = room[2];
+    let r3 = room[3];
+
   return (
     <div className="section">
           <h1><span>My College Schedule</span></h1>
@@ -20,7 +46,7 @@ function Schedule() {
               </tr>
               <tr>
                   <td>Sunday</td>
-                  <td>F1</td>
+                  <td>{r1}</td>
                   <td>OBJECT ORIENTED PROGRAMMING<br/>(S.DAS)</td>
                   <td>COMPUTER NETWORK<br/>(MR)</td>
                   <td>RELATIONAL DATA BASE MANAGEMENT SYSTEMS<br/>(FBA)</td>
@@ -30,7 +56,7 @@ function Schedule() {
               </tr>
               <tr>
                   <td>Monday</td>
-                  <td className="selected">F1</td>
+                  <td className="selected">{r1}</td>
                   <td className="selected">MICROPROCESSOR & PROGRAMMING<br/>(AI)</td>
                   <td className="selected" colspan="2">COMPUTER NETWORK LAB<br/>(MR)</td>
                   <td></td>
@@ -40,7 +66,7 @@ function Schedule() {
               </tr>
               <tr>
                   <td>Tuesday</td>
-                  <td>F1</td>
+                  <td>{r1}</td>
                   <td>OBJECT ORIENTED PROGRAMMING<br/>(S.DAS)</td>
                   <td>COMPUTER NETWORK<br/>(MR)</td>
                   <td>RELATIONAL DATA BASE MANAGEMENT SYSTEMS<br/>(FBA)</td>
@@ -50,7 +76,7 @@ function Schedule() {
               </tr>
               <tr>
                   <td>Wednesday</td>
-                  <td className="selected">&#8680;</td>
+                  <td className="selected">{r3}</td>
                   <td className="selected" colspan="2">MICROPROCESSOR & PROGRAMMING LAB<br/>(AI)</td>
                   <td className="selected">COMPUTER GRAPHICS<br/>(AHM)(S1)</td>
                   <td></td>

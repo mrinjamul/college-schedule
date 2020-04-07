@@ -14,7 +14,7 @@ table, th, td {
     table-layout: fixed;
 }
 button {
-    background-color: black;
+    background-color: #3A476D;
     border: none;
     border-radius: 8px;
     color: white;
@@ -26,7 +26,7 @@ button {
 }
 .selected {
     /* background-color: #f36f48; */
-    background-color: black;
+    background-color: #3A476D;
     font-weight: bold;
     color: white;
 }
