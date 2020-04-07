@@ -30,6 +30,7 @@ class Schedule extends Component {
             hh=hh<10?'0'+hh:hh;
             mm=mm<10?'0'+mm:mm;
             ss=ss<10?'0'+ss:ss;
+	        hh=hh==="00"?"12":hh;
 
             this.setState({
                 displayTime: ss%2===0?hh+":"+mm+":"+ss+" "+ampm:hh+" "+mm+" "+ss+" "+ampm
