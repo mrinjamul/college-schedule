@@ -19,9 +19,7 @@ function Schedule() {
 
   return (
     <div className="section">
-      <h1>
-        <span>My College Schedule</span>
-      </h1>
+      <h1>You are currently viewing full Schedule</h1>
       <table>
         <thead>
           <tr className="selected">

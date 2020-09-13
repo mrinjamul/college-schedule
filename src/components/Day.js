@@ -1,7 +1,7 @@
 import React from "react";
 
 function Day(props) {
-  // const [Day, Class_1, Class_2] = props;
+  const { Day, Class_1, Class_2 } = props;
   return (
     <div>
       <table>
@@ -14,9 +14,9 @@ function Day(props) {
         </thead>
         <tbody>
           <tr className="select">
-            <td>{props.Day}</td>
-            <td> {props.Class_1} </td>
-            <td> {props.Class_2} </td>
+            <td>{Day}</td>
+            <td> {Class_1} </td>
+            <td> {Class_2} </td>
           </tr>
         </tbody>
       </table>
