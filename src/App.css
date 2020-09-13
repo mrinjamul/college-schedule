@@ -1,20 +1,19 @@
 html {
-    margin: 0;
-    padding: auto;
+  margin: 0;
 }
 body {
-    text-align: center;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    justify-content: center;
-    position: absolute;
-    width: 1280px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 13pt;
-    background-color: #efefef;
-    padding: 10px;
-    margin: 0;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  width: 98%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13pt;
+  background-color: #efefef;
+  padding: 10px;
+  margin: 0;
 }
 .App {
   text-align: center;
@@ -23,95 +22,97 @@ body {
 }
 
 h1 {
-    font-size: 15pt;
-    color: #20bcd5;
-    text-align: center;
-    padding: 18px 0 18px 0;
-    margin: 0 0 10px 0;
+  font-size: 15pt;
+  color: #20bcd5;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
 }
 p {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 #header p {
-    font-size: 25pt;
-    color: #3b464c;
-    padding-top: 5px;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
+  font-size: 25pt;
+  color: #3b464c;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
 }
 .quote {
-    font-size: 12pt;
-    text-align: right;
-    margin-top: 10px;
+  font-size: 12pt;
+  text-align: right;
+  margin-top: 10px;
 }
 
 li {
-    margin-bottom: 15px;
-    font-weight: bold;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 progress {
-    width: 70%;
-    height: 20px;
-    color: #3fb6b2;
-    background: #efefef;
+  width: 70%;
+  height: 20px;
+  color: #3fb6b2;
+  background: #efefef;
 }
 progress::-webkit-progress-bar {
-    background: #efefef;
+  background: #efefef;
 }
 progress::-webkit-progress-value {
-    background: #3fb6b2;
+  background: #3fb6b2;
 }
 progress::-moz-progress-bar {
-    color: #3fb6b2;
-    background: #efefef;
+  color: #3fb6b2;
+  background: #efefef;
 }
-iframe, audio {
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #3fb6b2;
+iframe,
+audio {
+  display: block;
+  margin: 0;
+  border: 3px solid #3fb6b2;
 }
 hr {
-    border: 0;
-    height: 1px;
-    background: #f36f48;
+  border: 0;
+  height: 1px;
+  background: #f36f48;
 }
 form {
-    text-align: center;
-    margin-top: 0;
+  text-align: center;
+  margin-top: 0;
 }
 .submit {
-    background-color: #3fb6b2;
-    padding: 12px 45px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    margin: 0;
-    font-weight: bold;
+  background-color: #3fb6b2;
+  padding: 12px 45px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin: 0;
+  font-weight: bold;
 }
 .submit:hover {
-    background-color: #43a09d;
+  background-color: #43a09d;
 }
 textarea {
-    height: 100px;
+  height: 100px;
 }
-input, textarea {
-    margin-bottom: 10px;
-    font-size: 11pt;
-    padding: 15px 10px 10px;
-    border: 1px solid #cecece;
-    background-color: #efefef;
-    color: #787575;
-    border-radius: 5px;
-    width: 70%;
-    outline: none;
+input,
+textarea {
+  margin-bottom: 10px;
+  font-size: 11pt;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background-color: #efefef;
+  color: #787575;
+  border-radius: 5px;
+  width: 70%;
+  outline: none;
 }
 .copyright {
-    font-size: 8pt;
-    text-align: right;
-    padding-bottom: 10px;
-    color: grey;
+  font-size: 8pt;
+  text-align: right;
+  padding-bottom: 10px;
+  color: grey;
 }
