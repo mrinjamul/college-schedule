@@ -3,7 +3,7 @@ import Fschedule from "./Fschedule";
 import Day from "./Day";
 import Holiday from "./Holiday";
 
-import "./Schedule.css";
+import "./Main.css";
 
 class Schedule extends Component {
   constructor() {
