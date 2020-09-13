@@ -35,13 +35,13 @@ class Schedule extends Component {
     }, 500);
   }
 
-  handleClick = () => {
-    this.setState((prevState) => {
-      return {
-        fullView: !prevState.fullView,
-      };
-    });
-  };
+  // handleClick = () => {
+  //   this.setState((prevState) => {
+  //     return {
+  //       fullView: !prevState.fullView,
+  //     };
+  //   });
+  // };
 
   render() {
     const date = new Date();
@@ -164,9 +164,8 @@ class Schedule extends Component {
       CurrentS = messages[1];
     }
 
-    let value = this.state.fullView;
     let sed;
-    if (value === true) {
+    if (this.state.fullView === true) {
       sed = <Fschedule />;
     }
     let displayToday;
@@ -176,19 +175,27 @@ class Schedule extends Component {
       displayToday = <Day Day={DayName} Class_1={Class_1} Class_2={Class_2} />;
     }
     return (
-      <div className="section">
-        <h1>
-          <span>My College Schedule</span>
-        </h1>
-        <h1>
-          Time: {this.state.displayTime} , {timeOfDay}{" "}
-        </h1>
-        <h1>Now : {CurrentS}</h1>
-        {displayToday}
-        <br />
-        <button onClick={this.handleClick}>
-          <b>View Full Schedule</b>
-        </button>
+      <div className="main">
+        <div className="section">
+          <h1>
+            <span>My College Schedule</span>
+          </h1>
+          <h1>
+            Time: {this.state.displayTime} , {timeOfDay}{" "}
+          </h1>
+          <h1>Now : {CurrentS}</h1>
+          {displayToday}
+          <br />
+          <button
+            onClick={() => {
+              this.state.fullView === false
+                ? this.setState({ fullView: true })
+                : this.setState({ fullView: false });
+            }}
+          >
+            <b>View Full Schedule</b>
+          </button>
+        </div>
         {sed}
       </div>
     );

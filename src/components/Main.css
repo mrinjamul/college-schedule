@@ -4,7 +4,7 @@ table {
   empty-cells: hide;
 }
 h1 span {
-  border: 4px dashed #20bcd5;
+  border: 4px solid #3a476d;
   padding: 10px;
 }
 table,
@@ -18,14 +18,24 @@ td {
 }
 button {
   background-color: #3a476d;
-  border: none;
-  border-radius: 8px;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
 }
 .selected {
   /* background-color: #f36f48; */
