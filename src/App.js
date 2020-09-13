@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Loading from "./components/Loading";
-import Schedule from "./components/Schedule";
+import Schedule from "./components/Main";
 
 import "./App.css";
 
@@ -16,7 +16,7 @@ class App extends Component {
       this.setState({
         isLoading: false,
       });
-    }, 1000);
+    }, 1500);
   }
 
   render() {
@@ -27,11 +27,11 @@ class App extends Component {
         ) : (
           <div>
             <Schedule />
-            <h3 className="copyright"> Updated on 20th January 2020. </h3>
+            <h3 className="copyright"> Updated on 13th September 2020. </h3>
             <h3 className="copyright">
               Made with{" "}
               <font color="red">
-                <b>❤ </b>
+                <b> ❤ </b>
               </font>{" "}
               by Injamul Mohammad Mollah
             </h3>
