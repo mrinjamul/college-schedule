@@ -8,8 +8,8 @@ function Day(props) {
         <thead>
           <tr className="selected">
             <th>Day</th>
-            <th>11am - 12pm</th>
-            <th>2pm - 3pm</th>
+            <th>11am - 1:30pm</th>
+            <th>2pm - 4:30pm</th>
           </tr>
         </thead>
         <tbody>

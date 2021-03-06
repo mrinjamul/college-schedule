@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Fschedule from "./Fschedule";
 import Day from "./Day";
 import Holiday from "./Holiday";
+import {classes} from "./classes"
 
 import "./Main.css";
 
@@ -50,10 +51,12 @@ class Schedule extends Component {
 
     const now = date.getHours() * 60 + date.getMinutes();
     const eleven = 11 * 60;
-    const twelve = 12 * 60;
+    // const twelve = 12 * 60;
     // const thirteen = 13 * 60;
+    const thirteenHalf = 13 * 60 + 30;
     const fourteen = 14 * 60;
-    const fifteen = 15 * 60;
+    // const fifteen = 15 * 60;
+    const sixteenHalf = 16 * 60 + 30;
 
     let timeOfDay;
     let DayName;
@@ -61,20 +64,8 @@ class Schedule extends Component {
     let Class_1;
     let Class_2;
 
-    // const room = [
-    //     ' ',
-    //     'F1',
-    //     'S1',
-    //     '⇨',
-    // ];
-    const classes = [
-      " ",
-      "JAVA PROGRAMMING (FBA)",
-      "MULTIMEDIA & ANIMATION TECHNIQE (MR)",
-      "SOFTWARE ENGINEERING (SD)",
-      "THEORY OF COMPUTATION (JM)",
-      "OPERATING SYSTEM (SD)",
-    ];
+    // const room = [' ','F1','S1','⇨',];
+
     const messages = ["Break Time", "No class available right now !"];
 
     if (5 < hours && hours < 12) {
@@ -93,14 +84,14 @@ class Schedule extends Component {
 
     if (day === 0) {
       DayName = "Sunday";
-      Class_1 = classes[1];
-      Class_2 = classes[2];
-      if (eleven <= now && now < twelve) {
-        CurrentS = classes[1];
-      } else if (twelve <= now && now < fourteen) {
+      Class_1 = classes[2];
+      Class_2 = classes[5];
+      if (eleven <= now && now < thirteenHalf) {
+        CurrentS = Class_1;
+      } else if (thirteenHalf <= now && now < fourteen) {
         CurrentS = messages[0];
-      } else if (fourteen <= now && now < fifteen) {
-        CurrentS = classes[2];
+      } else if (fourteen <= now && now < sixteenHalf) {
+        CurrentS = Class_2;
       } else {
         CurrentS = messages[1];
       }
@@ -108,51 +99,51 @@ class Schedule extends Component {
       DayName = "Monday";
       Class_1 = classes[3];
       Class_2 = classes[4];
-      if (eleven <= now && now < twelve) {
-        CurrentS = classes[3];
-      } else if (twelve <= now && now < fourteen) {
+      if (eleven <= now && now < thirteenHalf) {
+        CurrentS = Class_1;
+      } else if (thirteenHalf <= now && now < fourteen) {
         CurrentS = messages[0];
-      } else if (fourteen <= now && now < fifteen) {
-        CurrentS = classes[4];
+      } else if (fourteen <= now && now < sixteenHalf) {
+        CurrentS = Class_2;
       } else {
         CurrentS = messages[1];
       }
     } else if (day === 2) {
       DayName = "Tuesday";
-      Class_1 = classes[2];
-      Class_2 = classes[5];
-      if (eleven <= now && now < twelve) {
-        CurrentS = classes[2];
-      } else if (twelve <= now && now < fourteen) {
+      Class_1 = classes[1];
+      Class_2 = classes[3];
+      if (eleven <= now && now < thirteenHalf) {
+        CurrentS = Class_1;
+      } else if (thirteenHalf <= now && now < fourteen) {
         CurrentS = messages[0];
-      } else if (fourteen <= now && now < fifteen) {
-        CurrentS = classes[5];
+      } else if (fourteen <= now && now < sixteenHalf) {
+        CurrentS = Class_2;
       } else {
         CurrentS = messages[1];
       }
     } else if (day === 3) {
       DayName = "Wednesday";
       Class_1 = classes[1];
-      Class_2 = classes[3];
-      if (eleven <= now && now < twelve) {
-        CurrentS = classes[1];
-      } else if (twelve <= now && now < fourteen) {
+      Class_2 = classes[2];
+      if (eleven <= now && now < thirteenHalf) {
+        CurrentS = Class_1;
+      } else if (thirteenHalf <= now && now < fourteen) {
         CurrentS = messages[0];
-      } else if (fourteen <= now && now < fifteen) {
-        CurrentS = classes[3];
+      } else if (fourteen <= now && now < sixteenHalf) {
+        CurrentS = Class_2;
       } else {
         CurrentS = messages[1];
       }
     } else if (day === 4) {
       DayName = "Thursday";
-      Class_1 = classes[5];
-      Class_2 = classes[4];
-      if (eleven <= now && now < twelve) {
-        CurrentS = classes[5];
-      } else if (twelve <= now && now < fourteen) {
+      Class_1 = classes[6];
+      Class_2 = classes[5];
+      if (eleven <= now && now < thirteenHalf) {
+        CurrentS = Class_1;
+      } else if (thirteenHalf <= now && now < fourteen) {
         CurrentS = messages[0];
-      } else if (fourteen <= now && now < fifteen) {
-        CurrentS = classes[4];
+      } else if (fourteen <= now && now < sixteenHalf) {
+        CurrentS = Class_2;
       } else {
         CurrentS = messages[1];
       }

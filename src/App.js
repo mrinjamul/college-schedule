@@ -27,7 +27,8 @@ class App extends Component {
         ) : (
           <div>
             <Schedule />
-            <h3 className="copyright"> Updated on 13th September 2020. </h3>
+            <h3 className="copyright"> Updated on March 6, 2021. </h3>
+            <h3 className="copyright" style={{ color: "red" }}> Valid til March 30, 2021. </h3>
             <h3 className="copyright">
               Made with{" "}
               <font color="red">
