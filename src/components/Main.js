@@ -5,6 +5,7 @@ import Holiday from "./Holiday";
 import {classes} from "./classes"
 
 import "./Main.css";
+import Expired from "./Expired";
 
 class Schedule extends Component {
   constructor() {
@@ -12,6 +13,7 @@ class Schedule extends Component {
     this.state = {
       fullView: false,
       displayTime: "HH:MM:SS AMPM",
+      expires: "March 30, 2021",
     };
 
     setInterval(() => {
@@ -63,6 +65,11 @@ class Schedule extends Component {
     let CurrentS;
     let Class_1;
     let Class_2;
+    let availability = true;
+    let expires = Date.parse(this.state.expires)
+    if (date >= expires) {
+      availability = false;
+    }
 
     // const room = [' ','F1','S1','⇨',];
 
@@ -165,6 +172,9 @@ class Schedule extends Component {
     } else {
       displayToday = <Day Day={DayName} Class_1={Class_1} Class_2={Class_2} />;
     }
+    if (!availability) {
+      displayToday = <Expired/>
+    }
     return (
       <div className="main">
         <div className="section">
@@ -174,9 +184,10 @@ class Schedule extends Component {
           <h1>
             Time: {this.state.displayTime} , {timeOfDay}{" "}
           </h1>
-          <h1>Now : {CurrentS}</h1>
+          { availability && <h1>Now : {CurrentS}</h1>}
           {displayToday}
           <br />
+          { availability &&
           <button
             onClick={() => {
               this.state.fullView === false
@@ -185,7 +196,7 @@ class Schedule extends Component {
             }}
           >
             <b>View Full Schedule</b>
-          </button>
+          </button>}
         </div>
         {sed}
       </div>
