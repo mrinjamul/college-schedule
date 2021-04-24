@@ -7,5 +7,5 @@ export const classes = [
     "PROFESSIONAL PRACTICE-III (SD)",
     "LIB/TUTORIAL",
   ];
-
-  export default {classes}
+// eslint-disable-next-line
+export default {classes}

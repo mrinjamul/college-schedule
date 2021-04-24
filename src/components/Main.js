@@ -13,7 +13,6 @@ class Schedule extends Component {
     this.state = {
       fullView: false,
       displayTime: "HH:MM:SS AMPM",
-      expires: "March 30, 2021",
     };
 
     setInterval(() => {
@@ -66,7 +65,7 @@ class Schedule extends Component {
     let Class_1;
     let Class_2;
     let availability = true;
-    let expires = Date.parse(this.state.expires)
+    let expires = Date.parse(this.props.expires)
     if (date >= expires) {
       availability = false;
     }

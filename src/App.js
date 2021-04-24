@@ -9,6 +9,8 @@ class App extends Component {
     super();
     this.state = {
       isLoading: true,
+      updateOn: "April 24, 2021",
+      expires: "March 30, 2021",
     };
   }
   componentDidMount() {
@@ -26,15 +28,15 @@ class App extends Component {
           <Loading />
         ) : (
           <div>
-            <Schedule />
-            <h3 className="copyright"> Updated on March 6, 2021. </h3>
-            <h3 className="copyright" style={{ color: "red" }}> Valid til March 30, 2021. </h3>
+            <Schedule expires={this.state.expires} />
+            <h3 className="copyright"> Updated on {this.state.updateOn}. </h3>
+            <h3 className="copyright" style={{ color: "red" }}> Valid til {this.state.expires}. </h3>
             <h3 className="copyright">
               Made with{" "}
               <font color="red">
                 <b> ❤ </b>
               </font>{" "}
-              by Injamul Mohammad Mollah
+              by Injamul Mohammad Mollah, All rights reversed
             </h3>
           </div>
         )}
