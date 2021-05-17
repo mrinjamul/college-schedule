@@ -1,11 +1,11 @@
 export const classes = [
     " ",
-    "JAVA PROGRAMMING (AHM)",
-    "MULTIMEDIA & ANIMATION TECHNIQE (FBA)",
-    "OPERATING SYSTEM (SD)",
-    "INDUSTRIAL PROJECT & ENTERPRENEURSHIP DEVELOPMENT",
-    "PROFESSIONAL PRACTICE-III (SD)",
+    "ADVANCED JAVA PROGRAMMING (AHM)",
+    "SYSTEM PROGRAMMING & COMPILER DESIGN (SD)",
+    "ELECTIVE II (FBA)",
+    "MANAGEMENT (***)",
     "LIB/TUTORIAL",
+    "NO CLASS",
   ];
 // eslint-disable-next-line
 export default {classes}

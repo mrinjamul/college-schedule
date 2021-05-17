@@ -9,8 +9,8 @@ class App extends Component {
     super();
     this.state = {
       isLoading: true,
-      updateOn: "April 24, 2021",
-      expires: "March 30, 2021",
+      updateOn: "May 17, 2021",
+      expires: "September 30, 2021",
     };
   }
   componentDidMount() {
