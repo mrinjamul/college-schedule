@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Fschedule from "./Fschedule";
 import Day from "./Day";
 import Holiday from "./Holiday";
-import {classes} from "./classes"
+import { classes } from "./classes";
 
 import "./Main.css";
 import Expired from "./Expired";
@@ -65,7 +65,7 @@ class Schedule extends Component {
     let Class_1;
     let Class_2;
     let availability = true;
-    let expires = Date.parse(this.props.expires)
+    let expires = Date.parse(this.props.expires);
     if (date >= expires) {
       availability = false;
     }
@@ -172,7 +172,7 @@ class Schedule extends Component {
       displayToday = <Day Day={DayName} Class_1={Class_1} Class_2={Class_2} />;
     }
     if (!availability) {
-      displayToday = <Expired/>
+      displayToday = <Expired />;
     }
     return (
       <div className="main">
@@ -183,19 +183,20 @@ class Schedule extends Component {
           <h1>
             Time: {this.state.displayTime} , {timeOfDay}{" "}
           </h1>
-          { availability && <h1>Now : {CurrentS}</h1>}
+          {availability && <h1>Now : {CurrentS}</h1>}
           {displayToday}
           <br />
-          { availability &&
-          <button
-            onClick={() => {
-              this.state.fullView === false
-                ? this.setState({ fullView: true })
-                : this.setState({ fullView: false });
-            }}
-          >
-            <b>View Full Schedule</b>
-          </button>}
+          {availability && (
+            <button
+              onClick={() => {
+                this.state.fullView === false
+                  ? this.setState({ fullView: true })
+                  : this.setState({ fullView: false });
+              }}
+            >
+              <b>View Full Schedule</b>
+            </button>
+          )}
         </div>
         {sed}
       </div>

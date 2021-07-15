@@ -1,5 +1,5 @@
 import React from "react";
-import {classes} from "./classes"
+import { classes } from "./classes";
 
 function Schedule() {
   // const room = [" ", "F1", "S1", "⇨"];

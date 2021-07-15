@@ -30,7 +30,10 @@ class App extends Component {
           <div>
             <Schedule expires={this.state.expires} />
             <h3 className="copyright"> Updated on {this.state.updateOn}. </h3>
-            <h3 className="copyright" style={{ color: "red" }}> Valid til {this.state.expires}. </h3>
+            <h3 className="copyright" style={{ color: "red" }}>
+              {" "}
+              Valid til {this.state.expires}.{" "}
+            </h3>
             <h3 className="copyright">
               Made with{" "}
               <font color="red">
