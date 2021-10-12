@@ -39,7 +39,7 @@ class App extends Component {
               <font color="red">
                 <b> ❤ </b>
               </font>{" "}
-              by Injamul Mohammad Mollah, All rights reversed
+              by Injamul Mohammad Mollah, All rights reserved
             </h3>
           </div>
         )}
