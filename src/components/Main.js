@@ -14,7 +14,22 @@ class Schedule extends Component {
       fullView: false,
       displayTime: "HH:MM:SS AMPM",
     };
+  }
 
+  // handleClick = () => {
+  //   this.setState((prevState) => {
+  //     return {
+  //       fullView: !prevState.fullView,
+  //     };
+  //   });
+  // };
+
+  componentDidMount() {}
+  componentWillUnmount() {
+    console.log("unmounted schedule component");
+  }
+
+  render() {
     setInterval(() => {
       const time = new Date();
       var hh = time.getHours();
@@ -34,18 +49,8 @@ class Schedule extends Component {
             ? hh + ":" + mm + ":" + ss + " " + ampm
             : hh + " " + mm + " " + ss + " " + ampm,
       });
-    }, 500);
-  }
-
-  // handleClick = () => {
-  //   this.setState((prevState) => {
-  //     return {
-  //       fullView: !prevState.fullView,
-  //     };
-  //   });
-  // };
-
-  render() {
+    }, 1000);
+    //
     const date = new Date();
     const day = date.getDay();
     const hours = date.getHours();
