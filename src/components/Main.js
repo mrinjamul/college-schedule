@@ -14,6 +14,9 @@ class Schedule extends Component {
       fullView: false,
       displayTime: "HH:MM:SS AMPM",
     };
+  }
+
+  componentDidMount() {
     setInterval(() => {
       const time = new Date();
       var hh = time.getHours();
@@ -28,25 +31,12 @@ class Schedule extends Component {
       hh = hh === "00" ? "12" : hh;
 
       this.setState({
-        displayTime:
-          ss % 2 === 0
-            ? hh + ":" + mm + ":" + ss + " " + ampm
-            : hh + " " + mm + " " + ss + " " + ampm,
+        displayTime: hh + ":" + mm + ":" + ss + " " + ampm,
       });
-    }, 500);
+    }, 1000);
   }
-
-  // handleClick = () => {
-  //   this.setState((prevState) => {
-  //     return {
-  //       fullView: !prevState.fullView,
-  //     };
-  //   });
-  // };
-
-  componentDidMount() {}
   componentWillUnmount() {
-    console.log("unmounted schedule component");
+    console.log("Schedule Component: unmounted !");
   }
 
   render() {
