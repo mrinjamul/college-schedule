@@ -49,26 +49,33 @@ class Schedule extends Component {
             ? hh + ":" + mm + ":" + ss + " " + ampm
             : hh + " " + mm + " " + ss + " " + ampm,
       });
-    }, 1000);
+    }, 500);
     //
     const date = new Date();
     const day = date.getDay();
     const hours = date.getHours();
 
     const now = date.getHours() * 60 + date.getMinutes();
+    const ten = 10 * 60;
     const eleven = 11 * 60;
-    // const twelve = 12 * 60;
-    // const thirteen = 13 * 60;
+    const twelve = 12 * 60;
+    const thirteen = 13 * 60;
     const thirteenHalf = 13 * 60 + 30;
-    const fourteen = 14 * 60;
-    // const fifteen = 15 * 60;
+    const fourteenHalf = 14 * 60 + 30;
+    const fifteenHalf = 15 * 60 + 30;
     const sixteenHalf = 16 * 60 + 30;
+    const seventeenHalf = 17 * 60 + 30;
 
     let timeOfDay;
     let DayName;
     let CurrentS;
     let Class_1;
     let Class_2;
+    let Class_3;
+    let Class_4;
+    let Class_5;
+    let Class_6;
+    let Class_7;
     let availability = true;
     let expires = Date.parse(this.props.expires);
     if (date >= expires) {
@@ -93,76 +100,151 @@ class Schedule extends Component {
       timeOfDay = "Night";
     }
 
-    if (day === 0) {
-      DayName = "Sunday";
-      Class_1 = classes[1];
-      Class_2 = classes[3];
-      if (eleven <= now && now < thirteenHalf) {
-        CurrentS = Class_1;
-      } else if (thirteenHalf <= now && now < fourteen) {
-        CurrentS = messages[0];
-      } else if (fourteen <= now && now < sixteenHalf) {
-        CurrentS = Class_2;
-      } else {
-        CurrentS = messages[1];
-      }
-    } else if (day === 1) {
+    if (day === 1) {
       DayName = "Monday";
-      Class_1 = classes[3];
-      Class_2 = classes[6];
-      if (eleven <= now && now < thirteenHalf) {
+      Class_1 = classes[10];
+      Class_2 = classes[1];
+      Class_3 = classes[1];
+      Class_4 = classes[2];
+      Class_5 = classes[3];
+      Class_6 = classes[10];
+      Class_7 = classes[10];
+      if (ten <= now && now < eleven) {
         CurrentS = Class_1;
-      } else if (thirteenHalf <= now && now < fourteen) {
-        CurrentS = messages[0];
-      } else if (fourteen <= now && now < sixteenHalf) {
+      } else if (eleven <= now && now < twelve) {
         CurrentS = Class_2;
+      } else if (twelve <= now && now < thirteen) {
+        CurrentS = Class_3;
+      } else if (thirteen <= now && now < thirteenHalf) {
+        CurrentS = messages[0];
+      } else if (thirteenHalf <= now && now < fourteenHalf) {
+        CurrentS = Class_4;
+      } else if (fourteenHalf <= now && now < fifteenHalf) {
+        CurrentS = Class_5;
+      } else if (fifteenHalf <= now && now < sixteenHalf) {
+        CurrentS = Class_6;
+      } else if (sixteenHalf <= now && now < seventeenHalf) {
+        CurrentS = Class_7;
       } else {
         CurrentS = messages[1];
       }
     } else if (day === 2) {
       DayName = "Tuesday";
-      Class_1 = classes[1];
-      Class_2 = classes[6];
-      if (eleven <= now && now < thirteenHalf) {
+      Class_1 = classes[10];
+      Class_2 = classes[4];
+      Class_3 = classes[2];
+      Class_4 = classes[5];
+      Class_5 = classes[5];
+      Class_6 = classes[5];
+      Class_7 = classes[5];
+      if (ten <= now && now < eleven) {
         CurrentS = Class_1;
-      } else if (thirteenHalf <= now && now < fourteen) {
-        CurrentS = messages[0];
-      } else if (fourteen <= now && now < sixteenHalf) {
+      } else if (eleven <= now && now < twelve) {
         CurrentS = Class_2;
+      } else if (twelve <= now && now < thirteen) {
+        CurrentS = Class_3;
+      } else if (thirteen <= now && now < thirteenHalf) {
+        CurrentS = messages[0];
+      } else if (thirteenHalf <= now && now < fourteenHalf) {
+        CurrentS = Class_4;
+      } else if (fourteenHalf <= now && now < fifteenHalf) {
+        CurrentS = Class_5;
+      } else if (fifteenHalf <= now && now < sixteenHalf) {
+        CurrentS = Class_6;
+      } else if (sixteenHalf <= now && now < seventeenHalf) {
+        CurrentS = Class_7;
       } else {
         CurrentS = messages[1];
       }
     } else if (day === 3) {
       DayName = "Wednesday";
-      Class_1 = classes[2];
+      Class_1 = classes[4];
       Class_2 = classes[4];
-      if (eleven <= now && now < thirteenHalf) {
+      Class_3 = classes[2];
+      Class_4 = classes[6];
+      Class_5 = classes[6];
+      Class_6 = classes[6];
+      Class_7 = classes[6];
+      if (ten <= now && now < eleven) {
         CurrentS = Class_1;
-      } else if (thirteenHalf <= now && now < fourteen) {
-        CurrentS = messages[0];
-      } else if (fourteen <= now && now < sixteenHalf) {
+      } else if (eleven <= now && now < twelve) {
         CurrentS = Class_2;
+      } else if (twelve <= now && now < thirteen) {
+        CurrentS = Class_3;
+      } else if (thirteen <= now && now < thirteenHalf) {
+        CurrentS = messages[0];
+      } else if (thirteenHalf <= now && now < fourteenHalf) {
+        CurrentS = Class_4;
+      } else if (fourteenHalf <= now && now < fifteenHalf) {
+        CurrentS = Class_5;
+      } else if (fifteenHalf <= now && now < sixteenHalf) {
+        CurrentS = Class_6;
+      } else if (sixteenHalf <= now && now < seventeenHalf) {
+        CurrentS = Class_7;
       } else {
         CurrentS = messages[1];
       }
     } else if (day === 4) {
       DayName = "Thursday";
-      Class_1 = classes[2];
-      Class_2 = classes[4];
-      if (eleven <= now && now < thirteenHalf) {
+      Class_1 = classes[3];
+      Class_2 = classes[3];
+      Class_3 = classes[7];
+      Class_4 = classes[8];
+      Class_5 = classes[8];
+      Class_6 = classes[8];
+      Class_7 = classes[8];
+      if (ten <= now && now < eleven) {
         CurrentS = Class_1;
-      } else if (thirteenHalf <= now && now < fourteen) {
-        CurrentS = messages[0];
-      } else if (fourteen <= now && now < sixteenHalf) {
+      } else if (eleven <= now && now < twelve) {
         CurrentS = Class_2;
+      } else if (twelve <= now && now < thirteen) {
+        CurrentS = Class_3;
+      } else if (thirteen <= now && now < thirteenHalf) {
+        CurrentS = messages[0];
+      } else if (thirteenHalf <= now && now < fourteenHalf) {
+        CurrentS = Class_4;
+      } else if (fourteenHalf <= now && now < fifteenHalf) {
+        CurrentS = Class_5;
+      } else if (fifteenHalf <= now && now < sixteenHalf) {
+        CurrentS = Class_6;
+      } else if (sixteenHalf <= now && now < seventeenHalf) {
+        CurrentS = Class_7;
       } else {
         CurrentS = messages[1];
       }
     } else if (day === 5) {
       DayName = "Friday";
+      Class_1 = classes[10];
+      Class_2 = classes[7];
+      Class_3 = classes[1];
+      Class_4 = classes[9];
+      Class_5 = classes[9];
+      Class_6 = classes[9];
+      Class_7 = classes[9];
+      if (ten <= now && now < eleven) {
+        CurrentS = Class_1;
+      } else if (eleven <= now && now < twelve) {
+        CurrentS = Class_2;
+      } else if (twelve <= now && now < thirteen) {
+        CurrentS = Class_3;
+      } else if (thirteen <= now && now < thirteenHalf) {
+        CurrentS = messages[0];
+      } else if (thirteenHalf <= now && now < fourteenHalf) {
+        CurrentS = Class_4;
+      } else if (fourteenHalf <= now && now < fifteenHalf) {
+        CurrentS = Class_5;
+      } else if (fifteenHalf <= now && now < sixteenHalf) {
+        CurrentS = Class_6;
+      } else if (sixteenHalf <= now && now < seventeenHalf) {
+        CurrentS = Class_7;
+      } else {
+        CurrentS = messages[1];
+      }
+    } else if (day === 6) {
+      DayName = "Saturday";
       CurrentS = messages[1];
     } else {
-      DayName = "Saturday";
+      DayName = "Sunday";
       CurrentS = messages[1];
     }
 
@@ -171,10 +253,21 @@ class Schedule extends Component {
       sed = <Fschedule />;
     }
     let displayToday;
-    if (day === 5 || day === 6) {
+    if (day === 6 || day === 0) {
       displayToday = <Holiday Day={DayName} />;
     } else {
-      displayToday = <Day Day={DayName} Class_1={Class_1} Class_2={Class_2} />;
+      displayToday = (
+        <Day
+          Day={DayName}
+          Class_1={Class_1}
+          Class_2={Class_2}
+          Class_3={Class_3}
+          Class_4={Class_4}
+          Class_5={Class_5}
+          Class_6={Class_6}
+          Class_7={Class_7}
+        />
+      );
     }
     if (!availability) {
       displayToday = <Expired />;
