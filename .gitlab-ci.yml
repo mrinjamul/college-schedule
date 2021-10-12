@@ -1,0 +1,40 @@
+# ReactJs optimized ci configs
+
+image: node:14-alpine
+
+#services:
+#
+#
+#cache:
+#  paths:
+#  - node_modules/
+#
+
+stages:
+  - build
+  - deploy
+
+build_app:
+  stage: build
+  script:
+    - npm install
+    - npm audit fix
+    - npm run build
+  only:
+    - tags
+  artifacts:
+    paths:
+      - build
+
+pages:
+  stage: deploy
+  script:
+    - rm -rfv public
+    - cp -rfv build public
+  artifacts:
+    paths:
+      - public
+  only:
+    - tags
+  dependencies:
+    - build_app
