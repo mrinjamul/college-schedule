@@ -276,7 +276,7 @@ class Schedule extends Component {
       <div className="main">
         <div className="section">
           <h1>
-            <span>My College Schedule</span>
+            <span>College Schedule</span>
           </h1>
           <h1>
             Time: {this.state.displayTime} , {timeOfDay}{" "}

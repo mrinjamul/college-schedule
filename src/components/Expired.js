@@ -11,8 +11,8 @@ const Expired = () => {
       </h1>
       <p>
         If you want to update the schedule, create an issue at{" "}
-        <a href="https://github.com/mrinjamul/myschedule/issues/">
-          mrinjamul/myschedule
+        <a href="https://github.com/mrinjamul/college-schedule/issues/">
+          mrinjamul/college-schedule
         </a>
       </p>
     </div>
