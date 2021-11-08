@@ -10,9 +10,7 @@ function Schedule() {
 
   return (
     <div className="section">
-      <h1 style={{ color: "#3a476d" }}>
-        You are currently viewing the full schedule
-      </h1>
+      <h1 style={{ color: "#3a476d" }}>Weekly Schedule</h1>
       <table>
         <thead>
           <tr className="selected">

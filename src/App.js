@@ -3,6 +3,7 @@ import Loading from "./components/Loading";
 import Schedule from "./components/Main";
 
 import "./App.css";
+import "./styles/dracula.css";
 
 class App extends Component {
   constructor() {

@@ -4,7 +4,7 @@ import Day from "./Day";
 import Holiday from "./Holiday";
 import { classes } from "./classes";
 
-import "./Main.css";
+import "styles/Main.css";
 import Expired from "./Expired";
 
 class Schedule extends Component {
@@ -265,7 +265,7 @@ class Schedule extends Component {
       <div className="main">
         <div className="section">
           <h1>
-            <span>College Schedule</span>
+            <span className="rounded-corner">College Schedule</span>
           </h1>
           <h1>
             Time: {this.state.displayTime} , {timeOfDay}{" "}
