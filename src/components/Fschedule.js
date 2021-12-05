@@ -32,7 +32,7 @@ function Schedule() {
             <td colSpan="2"> {classes[1]} </td>
             <td> {"R"} </td>
             <td> {classes[2]} </td>
-            <td> {classes[3]} </td>
+            <td> {classes[6]} </td>
             <td colSpan="2"> {classes[10]} </td>
           </tr>
           <tr className="selected">
@@ -48,14 +48,14 @@ function Schedule() {
             <td colSpan="2"> {classes[4]} </td>
             <td> {classes[2]} </td>
             <td> {"C"} </td>
-            <td colSpan="4"> {classes[6]} </td>
+            <td colSpan="4"> {classes[3]} </td>
           </tr>
           <tr className="selected">
             <td>Thursday</td>
-            <td colSpan="2"> {classes[3]} </td>
+            <td colSpan="2"> {classes[1]} </td>
             <td> {classes[7]} </td>
             <td> {"E"} </td>
-            <td colSpan="4"> {classes[8]} </td>
+            <td colSpan="4"> {classes[3]} </td>
           </tr>
           <tr className="select">
             <td>Friday</td>
