@@ -91,13 +91,13 @@ class Schedule extends Component {
 
     if (day === 1) {
       DayName = "Monday";
-      Class_1 = classes[10];
+      Class_1 = classes[11];
       Class_2 = classes[1];
       Class_3 = classes[1];
       Class_4 = classes[2];
-      Class_5 = classes[6];
-      Class_6 = classes[10];
-      Class_7 = classes[10];
+      Class_5 = classes[3];
+      Class_6 = classes[3];
+      Class_7 = classes[11];
       if (ten <= now && now < eleven) {
         CurrentS = Class_1;
       } else if (eleven <= now && now < twelve) {
@@ -119,9 +119,9 @@ class Schedule extends Component {
       }
     } else if (day === 2) {
       DayName = "Tuesday";
-      Class_1 = classes[10];
-      Class_2 = classes[4];
-      Class_3 = classes[2];
+      Class_1 = classes[11];
+      Class_2 = classes[1];
+      Class_3 = classes[4];
       Class_4 = classes[5];
       Class_5 = classes[5];
       Class_6 = classes[5];
@@ -147,13 +147,13 @@ class Schedule extends Component {
       }
     } else if (day === 3) {
       DayName = "Wednesday";
-      Class_1 = classes[4];
-      Class_2 = classes[4];
-      Class_3 = classes[2];
-      Class_4 = classes[3];
-      Class_5 = classes[3];
-      Class_6 = classes[3];
-      Class_7 = classes[3];
+      Class_1 = classes[0];
+      Class_2 = classes[6];
+      Class_3 = classes[6];
+      Class_4 = classes[7];
+      Class_5 = classes[8];
+      Class_6 = classes[11];
+      Class_7 = classes[11];
       if (ten <= now && now < eleven) {
         CurrentS = Class_1;
       } else if (eleven <= now && now < twelve) {
@@ -175,13 +175,13 @@ class Schedule extends Component {
       }
     } else if (day === 4) {
       DayName = "Thursday";
-      Class_1 = classes[1];
-      Class_2 = classes[1];
-      Class_3 = classes[7];
-      Class_4 = classes[3];
-      Class_5 = classes[3];
-      Class_6 = classes[3];
-      Class_7 = classes[3];
+      Class_1 = classes[0];
+      Class_2 = classes[6];
+      Class_3 = classes[3];
+      Class_4 = classes[9];
+      Class_5 = classes[9];
+      Class_6 = classes[11];
+      Class_7 = classes[11];
       if (ten <= now && now < eleven) {
         CurrentS = Class_1;
       } else if (eleven <= now && now < twelve) {
@@ -203,13 +203,13 @@ class Schedule extends Component {
       }
     } else if (day === 5) {
       DayName = "Friday";
-      Class_1 = classes[10];
-      Class_2 = classes[7];
-      Class_3 = classes[1];
-      Class_4 = classes[9];
-      Class_5 = classes[9];
-      Class_6 = classes[9];
-      Class_7 = classes[9];
+      Class_1 = classes[11];
+      Class_2 = classes[4];
+      Class_3 = classes[4];
+      Class_4 = classes[10];
+      Class_5 = classes[10];
+      Class_6 = classes[10];
+      Class_7 = classes[10];
       if (ten <= now && now < eleven) {
         CurrentS = Class_1;
       } else if (eleven <= now && now < twelve) {
