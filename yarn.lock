@@ -7498,17 +7498,11 @@ workbox-build@6.4.2:
     workbox-sw "6.4.2"
     workbox-window "6.4.2"
 
-workbox-cacheable-response@6.4.2:
+workbox-cacheable-response@6.4.2, workbox-cacheable-response@^6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-cacheable-response/-/workbox-cacheable-response-6.4.2.tgz"
   dependencies:
     workbox-core "6.4.2"
-
-workbox-cacheable-response@^5.1.3:
-  version "5.1.4"
-  resolved "https://registry.npmjs.org/workbox-cacheable-response/-/workbox-cacheable-response-5.1.4.tgz"
-  dependencies:
-    workbox-core "^5.1.4"
 
 workbox-core@6.4.2, workbox-core@^6.4.2:
   version "6.4.2"
