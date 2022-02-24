@@ -7531,9 +7531,13 @@ workbox-cacheable-response@6.4.2, workbox-cacheable-response@^6.4.2:
   dependencies:
     workbox-core "6.4.2"
 
-workbox-core@6.4.2, workbox-core@^6.4.2:
+workbox-core@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-core/-/workbox-core-6.4.2.tgz"
+
+workbox-core@6.5.0, workbox-core@^6.4.2:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.0.tgz#076e03840ca568bd04284e9f9f30e86c8dd09f1c"
 
 workbox-expiration@6.4.2, workbox-expiration@^6.4.2:
   version "6.4.2"
@@ -7588,11 +7592,17 @@ workbox-routing@6.4.2, workbox-routing@^6.4.2:
   dependencies:
     workbox-core "6.4.2"
 
-workbox-strategies@6.4.2, workbox-strategies@^6.4.2:
+workbox-strategies@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-strategies/-/workbox-strategies-6.4.2.tgz"
   dependencies:
     workbox-core "6.4.2"
+
+workbox-strategies@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.5.0.tgz#40269f7bd8b3160b42f06fa027230370a8b6f981"
+  dependencies:
+    workbox-core "6.5.0"
 
 workbox-streams@6.4.2, workbox-streams@^6.4.2:
   version "6.4.2"
