@@ -7476,11 +7476,17 @@ workbox-background-sync@6.4.2, workbox-background-sync@^6.4.2:
     idb "^6.1.4"
     workbox-core "6.4.2"
 
-workbox-broadcast-update@6.4.2, workbox-broadcast-update@^6.4.2:
+workbox-broadcast-update@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-broadcast-update/-/workbox-broadcast-update-6.4.2.tgz"
   dependencies:
     workbox-core "6.4.2"
+
+workbox-broadcast-update@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/workbox-broadcast-update/-/workbox-broadcast-update-6.5.0.tgz#0104b9ea41b40f8c5e03780226de66bec15141f2"
+  dependencies:
+    workbox-core "6.5.0"
 
 workbox-build@6.4.2:
   version "6.4.2"
@@ -7531,9 +7537,13 @@ workbox-cacheable-response@6.4.2, workbox-cacheable-response@^6.4.2:
   dependencies:
     workbox-core "6.4.2"
 
-workbox-core@6.4.2, workbox-core@^6.4.2:
+workbox-core@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-core/-/workbox-core-6.4.2.tgz"
+
+workbox-core@6.5.0, workbox-core@^6.4.2:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.0.tgz#076e03840ca568bd04284e9f9f30e86c8dd09f1c"
 
 workbox-expiration@6.4.2, workbox-expiration@^6.4.2:
   version "6.4.2"
