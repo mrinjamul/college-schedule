@@ -7531,9 +7531,13 @@ workbox-cacheable-response@6.4.2, workbox-cacheable-response@^6.4.2:
   dependencies:
     workbox-core "6.4.2"
 
-workbox-core@6.4.2, workbox-core@^6.4.2:
+workbox-core@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-core/-/workbox-core-6.4.2.tgz"
+
+workbox-core@6.5.1, workbox-core@^6.4.2:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.1.tgz#0dba3bccf883a46dfa61cc412eaa3cb09bb549e6"
 
 workbox-expiration@6.4.2, workbox-expiration@^6.4.2:
   version "6.4.2"
@@ -7551,11 +7555,17 @@ workbox-google-analytics@6.4.2, workbox-google-analytics@^6.4.2:
     workbox-routing "6.4.2"
     workbox-strategies "6.4.2"
 
-workbox-navigation-preload@6.4.2, workbox-navigation-preload@^6.4.2:
+workbox-navigation-preload@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-navigation-preload/-/workbox-navigation-preload-6.4.2.tgz"
   dependencies:
     workbox-core "6.4.2"
+
+workbox-navigation-preload@^6.5.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/workbox-navigation-preload/-/workbox-navigation-preload-6.5.1.tgz#a244e3bdf99ce86da7210315ca1ba5aef3710825"
+  dependencies:
+    workbox-core "6.5.1"
 
 workbox-precaching@6.4.2, workbox-precaching@^6.4.2:
   version "6.4.2"
