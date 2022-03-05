@@ -7476,7 +7476,7 @@ workbox-background-sync@6.4.2:
     idb "^6.1.4"
     workbox-core "6.4.2"
 
-workbox-background-sync@^6.5.1:
+workbox-background-sync@6.5.1, workbox-background-sync@^6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.5.1.tgz#df79c6a4a22945d8a44493a4947a6ed0f720ef86"
   dependencies:
@@ -7559,7 +7559,7 @@ workbox-expiration@6.4.2, workbox-expiration@^6.4.2:
     idb "^6.1.4"
     workbox-core "6.4.2"
 
-workbox-google-analytics@6.4.2, workbox-google-analytics@^6.4.2:
+workbox-google-analytics@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-google-analytics/-/workbox-google-analytics-6.4.2.tgz"
   dependencies:
@@ -7567,6 +7567,15 @@ workbox-google-analytics@6.4.2, workbox-google-analytics@^6.4.2:
     workbox-core "6.4.2"
     workbox-routing "6.4.2"
     workbox-strategies "6.4.2"
+
+workbox-google-analytics@^6.5.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-6.5.1.tgz#685224d439c1e7a943f8241d65e2a34ee95a4ba0"
+  dependencies:
+    workbox-background-sync "6.5.1"
+    workbox-core "6.5.1"
+    workbox-routing "6.5.1"
+    workbox-strategies "6.5.1"
 
 workbox-navigation-preload@6.4.2:
   version "6.4.2"
@@ -7605,11 +7614,17 @@ workbox-recipes@6.4.2:
     workbox-routing "6.4.2"
     workbox-strategies "6.4.2"
 
-workbox-routing@6.4.2, workbox-routing@^6.4.2:
+workbox-routing@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-routing/-/workbox-routing-6.4.2.tgz"
   dependencies:
     workbox-core "6.4.2"
+
+workbox-routing@6.5.1, workbox-routing@^6.4.2:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.5.1.tgz#5488795ae850fe3ae435241143b54ff25ab0db70"
+  dependencies:
+    workbox-core "6.5.1"
 
 workbox-strategies@6.4.2:
   version "6.4.2"
@@ -7617,7 +7632,7 @@ workbox-strategies@6.4.2:
   dependencies:
     workbox-core "6.4.2"
 
-workbox-strategies@^6.5.1:
+workbox-strategies@6.5.1, workbox-strategies@^6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.5.1.tgz#51cabbddad5a1956eb9d51cf6ce01ab0a6372756"
   dependencies:
