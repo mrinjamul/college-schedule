@@ -7476,11 +7476,17 @@ workbox-background-sync@6.4.2, workbox-background-sync@^6.4.2:
     idb "^6.1.4"
     workbox-core "6.4.2"
 
-workbox-broadcast-update@6.4.2, workbox-broadcast-update@^6.4.2:
+workbox-broadcast-update@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-broadcast-update/-/workbox-broadcast-update-6.4.2.tgz"
   dependencies:
     workbox-core "6.4.2"
+
+workbox-broadcast-update@^6.5.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/workbox-broadcast-update/-/workbox-broadcast-update-6.5.1.tgz#9aecb116979b0709480b84cfd1beca7a901d01d4"
+  dependencies:
+    workbox-core "6.5.1"
 
 workbox-build@6.4.2:
   version "6.4.2"
