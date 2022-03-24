@@ -7554,9 +7554,13 @@ workbox-core@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-core/-/workbox-core-6.4.2.tgz"
 
-workbox-core@6.5.1, workbox-core@^6.5.1:
+workbox-core@6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.1.tgz#0dba3bccf883a46dfa61cc412eaa3cb09bb549e6"
+
+workbox-core@6.5.2, workbox-core@^6.5.1:
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.2.tgz#f5e06a22c6cb4651d3e13107443d972fdbd47364"
 
 workbox-expiration@6.4.2:
   version "6.4.2"
@@ -7647,11 +7651,17 @@ workbox-routing@6.4.2:
   dependencies:
     workbox-core "6.4.2"
 
-workbox-routing@6.5.1, workbox-routing@^6.5.1:
+workbox-routing@6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.5.1.tgz#5488795ae850fe3ae435241143b54ff25ab0db70"
   dependencies:
     workbox-core "6.5.1"
+
+workbox-routing@6.5.2, workbox-routing@^6.5.1:
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.5.2.tgz#e0ad46246ba51224fd57eff0dd46891b3220cb9a"
+  dependencies:
+    workbox-core "6.5.2"
 
 workbox-strategies@6.4.2:
   version "6.4.2"
@@ -7672,12 +7682,12 @@ workbox-streams@6.4.2:
     workbox-core "6.4.2"
     workbox-routing "6.4.2"
 
-workbox-streams@^6.5.1:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/workbox-streams/-/workbox-streams-6.5.1.tgz#12036817385fa4449a86a3ef77fce1cb00ecad9f"
+workbox-streams@^6.5.2:
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/workbox-streams/-/workbox-streams-6.5.2.tgz#2fb6ba307f7d2cbda63f64522a197be868b4ea25"
   dependencies:
-    workbox-core "6.5.1"
-    workbox-routing "6.5.1"
+    workbox-core "6.5.2"
+    workbox-routing "6.5.2"
 
 workbox-sw@6.4.2:
   version "6.4.2"
