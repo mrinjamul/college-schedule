@@ -7565,7 +7565,7 @@ workbox-core@6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.1.tgz#0dba3bccf883a46dfa61cc412eaa3cb09bb549e6"
 
-workbox-core@6.5.2, workbox-core@^6.5.1:
+workbox-core@6.5.2, workbox-core@^6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.2.tgz#f5e06a22c6cb4651d3e13107443d972fdbd47364"
 
@@ -7682,7 +7682,7 @@ workbox-strategies@6.5.1:
   dependencies:
     workbox-core "6.5.1"
 
-workbox-strategies@6.5.2, workbox-strategies@^6.5.1:
+workbox-strategies@6.5.2, workbox-strategies@^6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.5.2.tgz#56b02e6959c6391351011fc2e5b0829aff1ed859"
   dependencies:
