@@ -7628,11 +7628,11 @@ workbox-range-requests@6.4.2:
   dependencies:
     workbox-core "6.4.2"
 
-workbox-range-requests@^6.5.1:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/workbox-range-requests/-/workbox-range-requests-6.5.1.tgz#f40f84aa8765940543eba16131d02f12b38e2fdc"
+workbox-range-requests@^6.5.2:
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/workbox-range-requests/-/workbox-range-requests-6.5.2.tgz#b8b7e5b5830fecc22f0a1d8815457921df2e5bf9"
   dependencies:
-    workbox-core "6.5.1"
+    workbox-core "6.5.2"
 
 workbox-recipes@6.4.2:
   version "6.4.2"
