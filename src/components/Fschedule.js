@@ -48,8 +48,7 @@ function Schedule() {
             <td> {classes[0]} </td>
             <td colSpan="2"> {classes[6]} </td>
             <td> {"C"} </td>
-            <td> {classes[7]} </td>
-            <td> {classes[8]} </td>
+            <td colSpan="2"> {classes[8]} </td>
             <td colSpan="2"> {classes[11]} </td>
           </tr>
           <tr className="selected">
@@ -58,8 +57,9 @@ function Schedule() {
             <td> {classes[6]} </td>
             <td> {classes[3]} </td>
             <td> {"E"} </td>
-            <td colSpan="2"> {classes[9]} </td>
-            <td colSpan="2"> {classes[11]} </td>
+            <td> {classes[9]} </td>
+            <td colSpan="2"> {classes[7]} </td>
+            <td> {classes[11]} </td>
           </tr>
           <tr className="select">
             <td>Friday</td>

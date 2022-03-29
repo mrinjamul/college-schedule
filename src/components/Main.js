@@ -150,7 +150,7 @@ class Schedule extends Component {
       Class_1 = classes[0];
       Class_2 = classes[6];
       Class_3 = classes[6];
-      Class_4 = classes[7];
+      Class_4 = classes[8];
       Class_5 = classes[8];
       Class_6 = classes[11];
       Class_7 = classes[11];
@@ -179,8 +179,8 @@ class Schedule extends Component {
       Class_2 = classes[6];
       Class_3 = classes[3];
       Class_4 = classes[9];
-      Class_5 = classes[9];
-      Class_6 = classes[11];
+      Class_5 = classes[7];
+      Class_6 = classes[7];
       Class_7 = classes[11];
       if (ten <= now && now < eleven) {
         CurrentS = Class_1;
