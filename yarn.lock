@@ -7539,19 +7539,23 @@ workbox-cacheable-response@6.4.2:
   dependencies:
     workbox-core "6.4.2"
 
-workbox-cacheable-response@^6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-6.5.2.tgz#d9252eb99f0d0fceb70f63866172f4eaac56a3e8"
+workbox-cacheable-response@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-6.5.3.tgz#b1f8c2bc599a7be8f7e3c262535629c558738e47"
   dependencies:
-    workbox-core "6.5.2"
+    workbox-core "6.5.3"
 
 workbox-core@6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/workbox-core/-/workbox-core-6.4.2.tgz"
 
-workbox-core@6.5.2, workbox-core@^6.5.2:
+workbox-core@6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.2.tgz#f5e06a22c6cb4651d3e13107443d972fdbd47364"
+
+workbox-core@6.5.3, workbox-core@^6.5.2:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.3.tgz#bca038a9ef0d7a634a6db2a60f45313ed22ac249"
 
 workbox-expiration@6.4.2:
   version "6.4.2"
