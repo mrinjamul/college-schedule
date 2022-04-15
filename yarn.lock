@@ -7471,12 +7471,19 @@ workbox-background-sync@6.4.2:
     idb "^6.1.4"
     workbox-core "6.4.2"
 
-workbox-background-sync@6.5.2, workbox-background-sync@^6.5.2:
+workbox-background-sync@6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.5.2.tgz#28be9bf89b8e4e0379d45903280c7c12f4df836f"
   dependencies:
     idb "^6.1.4"
     workbox-core "6.5.2"
+
+workbox-background-sync@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.5.3.tgz#7c66c1836aeca6f3762dc48d17a1852a33b3168c"
+  dependencies:
+    idb "^6.1.4"
+    workbox-core "6.5.3"
 
 workbox-broadcast-update@6.4.2:
   version "6.4.2"
