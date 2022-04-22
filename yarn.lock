@@ -7571,12 +7571,12 @@ workbox-expiration@6.4.2:
     idb "^6.1.4"
     workbox-core "6.4.2"
 
-workbox-expiration@^6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.5.2.tgz#ee6ed755a220a0b375d67831f9237e4dcbccb59c"
+workbox-expiration@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.5.3.tgz#efc0811f371a2ede1052b9de1c4f072b71d50503"
   dependencies:
     idb "^6.1.4"
-    workbox-core "6.5.2"
+    workbox-core "6.5.3"
 
 workbox-google-analytics@6.4.2:
   version "6.4.2"
