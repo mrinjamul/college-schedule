@@ -7665,11 +7665,17 @@ workbox-strategies@6.4.2:
   dependencies:
     workbox-core "6.4.2"
 
-workbox-strategies@6.5.2, workbox-strategies@^6.5.1:
+workbox-strategies@6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.5.2.tgz#56b02e6959c6391351011fc2e5b0829aff1ed859"
   dependencies:
     workbox-core "6.5.2"
+
+workbox-strategies@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.5.3.tgz#4bea9a48fee16cf43766e0d8138296773c8a9783"
+  dependencies:
+    workbox-core "6.5.3"
 
 workbox-streams@6.4.2:
   version "6.4.2"
