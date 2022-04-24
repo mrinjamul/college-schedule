@@ -7471,14 +7471,7 @@ workbox-background-sync@6.4.2:
     idb "^6.1.4"
     workbox-core "6.4.2"
 
-workbox-background-sync@6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.5.2.tgz#28be9bf89b8e4e0379d45903280c7c12f4df836f"
-  dependencies:
-    idb "^6.1.4"
-    workbox-core "6.5.2"
-
-workbox-background-sync@^6.5.3:
+workbox-background-sync@6.5.3, workbox-background-sync@^6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.5.3.tgz#7c66c1836aeca6f3762dc48d17a1852a33b3168c"
   dependencies:
@@ -7587,14 +7580,14 @@ workbox-google-analytics@6.4.2:
     workbox-routing "6.4.2"
     workbox-strategies "6.4.2"
 
-workbox-google-analytics@^6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-6.5.2.tgz#a79fa7a40824873baaa333dcd72d1fdf1c53adf5"
+workbox-google-analytics@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-6.5.3.tgz#cc8c3a61f449131660a4ed2f5362d9a3599b18fe"
   dependencies:
-    workbox-background-sync "6.5.2"
-    workbox-core "6.5.2"
-    workbox-routing "6.5.2"
-    workbox-strategies "6.5.2"
+    workbox-background-sync "6.5.3"
+    workbox-core "6.5.3"
+    workbox-routing "6.5.3"
+    workbox-strategies "6.5.3"
 
 workbox-navigation-preload@6.4.2:
   version "6.4.2"
@@ -7659,7 +7652,7 @@ workbox-routing@6.5.2:
   dependencies:
     workbox-core "6.5.2"
 
-workbox-routing@^6.5.3:
+workbox-routing@6.5.3, workbox-routing@^6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.5.3.tgz#a0a699d8cc90b5692bd3df24679acbbda3913777"
   dependencies:
@@ -7677,7 +7670,7 @@ workbox-strategies@6.5.2:
   dependencies:
     workbox-core "6.5.2"
 
-workbox-strategies@^6.5.3:
+workbox-strategies@6.5.3, workbox-strategies@^6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.5.3.tgz#4bea9a48fee16cf43766e0d8138296773c8a9783"
   dependencies:
