@@ -7609,13 +7609,13 @@ workbox-precaching@6.4.2:
     workbox-routing "6.4.2"
     workbox-strategies "6.4.2"
 
-workbox-precaching@^6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-6.5.2.tgz#a3117b4d3eb61ce8d01b9dfc063c48155bd7f9d3"
+workbox-precaching@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-6.5.3.tgz#c870312b2ef901d790ab9e48da084e776c62af47"
   dependencies:
-    workbox-core "6.5.2"
-    workbox-routing "6.5.2"
-    workbox-strategies "6.5.2"
+    workbox-core "6.5.3"
+    workbox-routing "6.5.3"
+    workbox-strategies "6.5.3"
 
 workbox-range-requests@6.4.2:
   version "6.4.2"
@@ -7663,12 +7663,6 @@ workbox-strategies@6.4.2:
   resolved "https://registry.npmjs.org/workbox-strategies/-/workbox-strategies-6.4.2.tgz"
   dependencies:
     workbox-core "6.4.2"
-
-workbox-strategies@6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-6.5.2.tgz#56b02e6959c6391351011fc2e5b0829aff1ed859"
-  dependencies:
-    workbox-core "6.5.2"
 
 workbox-strategies@6.5.3, workbox-strategies@^6.5.3:
   version "6.5.3"
