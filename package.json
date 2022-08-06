@@ -2,7 +2,7 @@
   "name": "college-schedule",
   "version": "2.1.1",
   "private": true,
-  "homepage": "https://mrinjamul.github.io/college-schedule",
+  "homepage": "https://college-schedule.pages.dev",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
