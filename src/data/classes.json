@@ -1,4 +1,4 @@
-export const classes = [
+[
   " ",
   "PCC CS 402(AB[IT])",
   "PCC CS 401(MD[T])",
@@ -12,7 +12,5 @@ export const classes = [
   "PCC CS 492(AB[IT]+ )[P308/P408]",
   "MAR",
   "NO CLASS",
-  "RECESS",
-];
-// eslint-disable-next-line
-export default { classes };
+  "RECESS"
+]

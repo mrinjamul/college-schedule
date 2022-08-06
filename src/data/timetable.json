@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Attend classes",
+    "start_date": "",
+    "end_date": "",
+    "repeat": "everyday",
+    "status": "busy",
+    "class": "event"
+  },
+  {
+    "label": "Meeting",
+    "start_date": "",
+    "end_date": "",
+    "repeat": "everyday",
+    "status": "tentative",
+    "class": "event"
+  },
+  {
+    "label": "New Year",
+    "start_date": "",
+    "end_date": "",
+    "repeat": "everyday",
+    "status": "tentative",
+    "class": "holiday"
+  }
+]
