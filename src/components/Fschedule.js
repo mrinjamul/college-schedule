@@ -1,4 +1,6 @@
 import React from "react";
+import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
+import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
 import classes from "data/classes.json";
 
 function Schedule() {
@@ -11,65 +13,65 @@ function Schedule() {
   return (
     <div className="section">
       <h1 style={{ color: "#3a476d" }}>Weekly Schedule</h1>
-      <table>
-        <thead>
-          <tr className="selected">
-            <th>Day</th>
-            <th>10am - 11am</th>
-            <th>11am - 12pm</th>
-            <th>12pm - 1pm</th>
-            <th>1pm - 1:30pm</th>
-            <th>1:30pm - 2:30pm</th>
-            <th>2:30pm - 3:30pm</th>
-            <th>3:30pm - 4:30pm</th>
-            <th>4:30pm - 5:30pm</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr className="select">
-            <td>Monday</td>
-            <td> {classes[11]} </td>
-            <td colSpan="2"> {classes[1]} </td>
-            <td> {"R"} </td>
-            <td> {classes[2]} </td>
-            <td colSpan="2"> {classes[3]} </td>
-            <td> {classes[11]} </td>
-          </tr>
-          <tr className="selected">
-            <td>Tuesday</td>
-            <td> {classes[11]} </td>
-            <td> {classes[1]} </td>
-            <td> {classes[4]} </td>
-            <td> {"E"} </td>
-            <td colSpan="4"> {classes[5]} </td>
-          </tr>
-          <tr className="select">
-            <td>Wednesday</td>
-            <td> {classes[0]} </td>
-            <td colSpan="2"> {classes[6]} </td>
-            <td> {"C"} </td>
-            <td colSpan="2"> {classes[8]} </td>
-            <td colSpan="2"> {classes[11]} </td>
-          </tr>
-          <tr className="selected">
-            <td>Thursday</td>
-            <td> {classes[0]} </td>
-            <td> {classes[6]} </td>
-            <td> {classes[3]} </td>
-            <td> {"E"} </td>
-            <td> {classes[9]} </td>
-            <td colSpan="2"> {classes[7]} </td>
-            <td> {classes[11]} </td>
-          </tr>
-          <tr className="select">
-            <td>Friday</td>
-            <td> {classes[11]} </td>
-            <td colSpan="2"> {classes[4]} </td>
-            <td> {"SS"} </td>
-            <td colSpan="4"> {classes[10]} </td>
-          </tr>
-        </tbody>
-      </table>
+      <Table>
+        <Thead>
+          <Tr className="selected">
+            <Th>Day</Th>
+            <Th>10am - 11am</Th>
+            <Th>11am - 12pm</Th>
+            <Th>12pm - 1pm</Th>
+            <Th>1pm - 1:30pm</Th>
+            <Th>1:30pm - 2:30pm</Th>
+            <Th>2:30pm - 3:30pm</Th>
+            <Th>3:30pm - 4:30pm</Th>
+            <Th>4:30pm - 5:30pm</Th>
+          </Tr>
+        </Thead>
+        <Tbody>
+          <Tr className="select">
+            <Td>Monday</Td>
+            <Td> {classes[11]} </Td>
+            <Td colSpan="2"> {classes[1]} </Td>
+            <Td> {"R"} </Td>
+            <Td> {classes[2]} </Td>
+            <Td colSpan="2"> {classes[3]} </Td>
+            <Td> {classes[11]} </Td>
+          </Tr>
+          <Tr className="selected">
+            <Td>Tuesday</Td>
+            <Td> {classes[11]} </Td>
+            <Td> {classes[1]} </Td>
+            <Td> {classes[4]} </Td>
+            <Td> {"E"} </Td>
+            <Td colSpan="4"> {classes[5]} </Td>
+          </Tr>
+          <Tr className="select">
+            <Td>Wednesday</Td>
+            <Td> {classes[0]} </Td>
+            <Td colSpan="2"> {classes[6]} </Td>
+            <Td> {"C"} </Td>
+            <Td colSpan="2"> {classes[8]} </Td>
+            <Td colSpan="2"> {classes[11]} </Td>
+          </Tr>
+          <Tr className="selected">
+            <Td>Thursday</Td>
+            <Td> {classes[0]} </Td>
+            <Td> {classes[6]} </Td>
+            <Td> {classes[3]} </Td>
+            <Td> {"E"} </Td>
+            <Td> {classes[9]} </Td>
+            <Td colSpan="2"> {classes[7]} </Td>
+            <Td> {classes[11]} </Td>
+          </Tr>
+          <Tr className="select">
+            <Td>Friday</Td>
+            <Td> {classes[11]} </Td>
+            <Td colSpan="2"> {classes[4]} </Td>
+            <Td> {"SS"} </Td>
+            <Td colSpan="4"> {classes[10]} </Td>
+          </Tr>
+        </Tbody>
+      </Table>
     </div>
   );
 }
