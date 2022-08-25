@@ -31,16 +31,18 @@ class App extends Component {
           <div>
             <Schedule expires={this.state.expires} />
             <h3 className="copyright"> Updated on {this.state.updateOn}. </h3>
-            <h3 className="copyright" style={{ color: "red" }}>
+            <h3 className="copyright" style={{ color: "#009879" }}>
               {" "}
               Valid til {this.state.expires}.{" "}
             </h3>
             <h3 className="copyright">
               Made with{" "}
-              <font color="red">
+              <font color="#009879">
                 <b> ❤ </b>
               </font>{" "}
-              by Injamul Mohammad Mollah, All rights reserved
+              by  
+              <a href="https://github.com/mrinjamul">  Injamul Mohammad Mollah</a> & 
+              <a href="https://github.com/mahafujul"> Mahafujul Haque</a>
             </h3>
           </div>
         )}

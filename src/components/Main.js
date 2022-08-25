@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Fschedule from "./Fschedule";
 import Day from "./Day";
 import Holiday from "./Holiday";
-import { classes } from "./classes";
+import classes from "data/classes.json";
 
 import "styles/Main.css";
 import Expired from "./Expired";
