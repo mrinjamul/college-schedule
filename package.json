@@ -2,7 +2,7 @@
   "name": "college-schedule",
   "version": "2.1.1",
   "private": true,
-  "homepage": "https://college-schedule.pages.dev",
+  "homepage": "https://mahafujul.github.io/college-schedule",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
