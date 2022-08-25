@@ -67,7 +67,7 @@ function Day(props) {
 
   return (
     <div>
-      <Table>
+      <Table className="content-table">
         <Thead>
           <Tr className="selected">
             <Th>Day</Th>
@@ -82,7 +82,7 @@ function Day(props) {
           </Tr>
         </Thead>
         <Tbody>
-          <Tr className="select">
+          <Tr className="select, active-row">
             <Td>{Day}</Td>
             <Td colSpan={col_one}> {Class_1} </Td>
             {Class_2 && <Td colSpan={col_two}> {Class_2} </Td>}
