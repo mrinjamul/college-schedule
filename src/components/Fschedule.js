@@ -13,7 +13,7 @@ function Schedule() {
   return (
     <div className="section">
       <h1 style={{ color: "#3a476d" }}>Weekly Schedule</h1>
-      <Table>
+      <Table className="content-table">
         <Thead>
           <Tr className="selected">
             <Th>Day</Th>
