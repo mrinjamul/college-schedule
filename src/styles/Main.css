@@ -1,8 +1,8 @@
-/*table {
+table {
   width: 100%;
   font-size: 15pt;
   empty-cells: hide;
-}*/
+}
 *{
   font-family: 'Quicksand', sans-serif;
 }
@@ -10,7 +10,7 @@
 h1 span {
   /*border: 4px solid #3a476d;*/
  /* border: 4px solid #009879;*/
-  font-size: 50px;
+  font-size: 37pt;
   font-weight: bold;
 }
 /*table,
@@ -37,17 +37,17 @@ padding: 0.8em;
 
 
 }
-.content-table Thead Tr{
+.content-table thead tr{
   background-color: #009879;
   color: white;
   font-family: 'Quicksand', sans-serif;
 
 }
-.content-table Th{
+.content-table th{
   padding: 12px 10px;
   border: 1px solid #dddddd !important;
 }
-.content-table Td{
+.content-table td{
   padding: 12px 10px;
   border: 1px solid #dddddd !important;
 }
@@ -69,7 +69,7 @@ button {
   /*background-color: #3a476d;*/
   background-color: #009879;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -87,12 +87,12 @@ button:active {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   /* Lowering the shadow */
 }
-.selected {
-  /* background-color: #f36f48; */
-  /*background-color: #3a476d;*/
-  /*font-weight: bold;*/
-  /*color: white;*/
-}
+/* .selected {
+  background-color: #f36f48; 
+  background-color: #3a476d;
+  font-weight: bold;
+  color: white;
+} */
 /*.select {
   /* background-color: #f36f48; */
   /*background-color: #880e4e;*/
@@ -109,5 +109,54 @@ button:active {
 
 .rounded-corner {
   border-radius: 10px;
+}
+
+
+@media(max-width:500px){
+  .content-table{
+      box-shadow: none;
+      overflow: unset;
+  }
+  .content-table thead{
+      display: none;
+  }
+  .content-table, .content-table tbody, .content-table tr, .content-table td{
+      display: block;
+      width: 100%;
+      
+  }
+  .content-table tr{
+      margin-bottom: 15px;
+      border-bottom: 2px solid #009879 !important;
+  }
+  .content-table td{
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+  }
+  .content-table td::before{
+      content: attr(data-labe);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: left;
+  }
+  .day{
+      background-color: #009879;
+      color: #ffffff;
+  }
+  h1 span{
+    font-size: 40px;
+  }
+  button{
+    padding: 15px 20px;
+  }
+
+  .break:after {
+    content: '- Break' !important;
+  }
 }
 
