@@ -40,9 +40,24 @@ class App extends Component {
               <font color="red">
                 <b> ❤ </b>
               </font>{" "}
-              by  
-              <a href="https://github.com/mrinjamul" target="_blank">  Injamul Mohammad Mollah</a> & 
-              <a href="https://github.com/mahafujul" target="_blank"> Mahafujul Haque</a>
+              by
+              <a
+                href="https://github.com/mrinjamul"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Injamul Mohammad Mollah
+              </a>{" "}
+              &
+              <a
+                href="https://github.com/mahafujul"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Mahafujul Haque
+              </a>
             </h3>
           </div>
         )}

@@ -41,8 +41,8 @@ class Schedule extends Component {
 
   render() {
     const date = new Date();
-    // const day = date.getDay();
-    let day = 1;
+    const day = date.getDay();
+    // let day = 1;
     const hours = date.getHours();
 
     const now = date.getHours() * 60 + date.getMinutes();
