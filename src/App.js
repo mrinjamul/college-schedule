@@ -10,8 +10,8 @@ class App extends Component {
     super();
     this.state = {
       isLoading: true,
-      updateOn: "February 11, 2021",
-      expires: "August 31, 2022",
+      updateOn: "August 01, 2022",
+      expires: "December 31, 2022",
     };
   }
   componentDidMount() {
@@ -37,12 +37,12 @@ class App extends Component {
             </h3>
             <h3 className="copyright">
               Made with{" "}
-              <font color="#009879">
+              <font color="red">
                 <b> ❤ </b>
               </font>{" "}
               by  
-              <a href="https://github.com/mrinjamul">  Injamul Mohammad Mollah</a> & 
-              <a href="https://github.com/mahafujul"> Mahafujul Haque</a>
+              <a href="https://github.com/mrinjamul" target="_blank">  Injamul Mohammad Mollah</a> & 
+              <a href="https://github.com/mahafujul" target="_blank"> Mahafujul Haque</a>
             </h3>
           </div>
         )}

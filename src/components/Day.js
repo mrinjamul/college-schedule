@@ -1,6 +1,4 @@
 import React from "react";
-import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
-import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
 
 function Day(props) {
   let { Day, Class_1, Class_2, Class_3, Class_4, Class_5, Class_6, Class_7 } =
@@ -67,34 +65,34 @@ function Day(props) {
 
   return (
     <div>
-      <Table className="content-table">
-        <Thead>
-          <Tr className="selected">
-            <Th>Day</Th>
-            <Th>10am - 11am</Th>
-            <Th>11am - 12pm</Th>
-            <Th>12pm - 1pm</Th>
-            <Th>1pm - 1:30pm</Th>
-            <Th>1:30pm - 2:30pm</Th>
-            <Th>2:30pm - 3:30pm</Th>
-            <Th>3:30pm - 4:30pm</Th>
-            <Th>4:30pm - 5:30pm</Th>
-          </Tr>
-        </Thead>
-        <Tbody>
-          <Tr className="select, active-row">
-            <Td>{Day}</Td>
-            <Td colSpan={col_one}> {Class_1} </Td>
-            {Class_2 && <Td colSpan={col_two}> {Class_2} </Td>}
-            {Class_3 && <Td colSpan={col_three}> {Class_3} </Td>}
-            <Td> RECESS </Td>
-            <Td colSpan={col_four}> {Class_4} </Td>
-            {Class_5 && <Td colSpan={col_five}> {Class_5} </Td>}
-            {Class_6 && <Td colSpan={col_six}> {Class_6} </Td>}
-            {Class_7 && <Td colSpan={col_seven}> {Class_7} </Td>}
-          </Tr>
-        </Tbody>
-      </Table>
+      <table className="content-table">
+        <thead>
+          <tr className="selected">
+            <th>Day</th>
+            <th>10 am - 11 am</th>
+            <th>11 am - 12 pm</th>
+            <th>12 pm - 1 pm</th>
+            <th>1 pm - 2 pm</th>
+            <th>2 pm - 3 pm</th>
+            <th>3 pm - 4 pm</th>
+            <th>4 pm - 5 pm</th>
+            <th>5 pm - 6 pm</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="select, active-row">
+            <td data-labe="Day" class="day">{Day}</td>
+            <td colSpan={col_one}> {Class_1} </td>
+            {Class_2 && <td colSpan={col_two}> {Class_2} </td>}
+            {Class_3 && <td colSpan={col_three}> {Class_3} </td>}
+            <td> BREAK </td>
+            <td colSpan={col_four}> {Class_4} </td>
+            {Class_5 && <td colSpan={col_five}> {Class_5} </td>}
+            {Class_6 && <td colSpan={col_six}> {Class_6} </td>}
+            {Class_7 && <td colSpan={col_seven}> {Class_7} </td>}
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
