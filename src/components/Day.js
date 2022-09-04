@@ -81,7 +81,9 @@ function Day(props) {
         </thead>
         <tbody>
           <tr className="select, active-row">
-            <td data-labe="Day" class="day">{Day}</td>
+            <td data-labe="Day" className="day">
+              {Day}
+            </td>
             <td colSpan={col_one}> {Class_1} </td>
             {Class_2 && <td colSpan={col_two}> {Class_2} </td>}
             {Class_3 && <td colSpan={col_three}> {Class_3} </td>}

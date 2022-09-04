@@ -27,45 +27,100 @@ function Schedule() {
         </thead>
         <tbody>
           <tr className="select">
-            <td data-labe="Day" class="day">Monday</td>
+            <td data-labe="Day" className="day">
+              Monday
+            </td>
             <td data-labe="10:00 - 11:00 am"> {classes[10]} </td>
-            <td data-labe="11:00 - 01:00 pm" colSpan="2"> {classes[1]} </td>
-            <td data-labe="01:00 - 02:00 pm" class="break"> {"B"} </td>
-            <td data-labe="02:00 - 06:00 pm" colSpan="4"> {classes[2]} </td>
+            <td data-labe="11:00 - 01:00 pm" colSpan="2">
+              {" "}
+              {classes[1]}{" "}
+            </td>
+            <td data-labe="01:00 - 02:00 pm" className="break">
+              {" "}
+              {"B"}{" "}
+            </td>
+            <td data-labe="02:00 - 06:00 pm" colSpan="4">
+              {" "}
+              {classes[2]}{" "}
+            </td>
           </tr>
           <tr className="selected">
-            <td data-labe="Day" class="day">Tuesday</td>
+            <td data-labe="Day" className="day">
+              Tuesday
+            </td>
             <td data-labe="10:00 - 11:00 am"> {classes[3]} </td>
-            <td data-labe="11:00 - 01:00 pm" colSpan="2"> {classes[4]} </td>
-            <td data-labe="01:00 - 02:00 pm" class="break"> {"R"} </td>
-            <td data-labe="02:00 - 06:00 pm" colSpan="4"> {classes[5]} </td>
+            <td data-labe="11:00 - 01:00 pm" colSpan="2">
+              {" "}
+              {classes[4]}{" "}
+            </td>
+            <td data-labe="01:00 - 02:00 pm" className="break">
+              {" "}
+              {"R"}{" "}
+            </td>
+            <td data-labe="02:00 - 06:00 pm" colSpan="4">
+              {" "}
+              {classes[5]}{" "}
+            </td>
           </tr>
           <tr className="select">
-            <td data-labe="Day" class="day">Wednesday</td>
+            <td data-labe="Day" className="day">
+              Wednesday
+            </td>
             <td data-labe="10:00 - 11:00 am"> {classes[13]} </td>
-            <td data-labe="11:00 - 01:00 pm" colSpan="2"> {classes[8]} </td>
-            <td data-labe="01:00 - 02:00 pm" class="break"> {"E"} </td>
-            <td data-labe="01:00 - 02:00 pm" colSpan="2"> {classes[7]} </td>
+            <td data-labe="11:00 - 01:00 pm" colSpan="2">
+              {" "}
+              {classes[8]}{" "}
+            </td>
+            <td data-labe="01:00 - 02:00 pm" className="break">
+              {" "}
+              {"E"}{" "}
+            </td>
+            <td data-labe="01:00 - 02:00 pm" colSpan="2">
+              {" "}
+              {classes[7]}{" "}
+            </td>
             <td data-labe="02:00 - 04:00 pm"> {classes[4]} </td>
             <td data-labe="04:00 - 06:00 pm"> {classes[10]} </td>
           </tr>
           <tr className="selected">
-            <td data-labe="Day" class="day">Thursday</td>
+            <td data-labe="Day" className="day">
+              Thursday
+            </td>
             <td data-labe="10:00 - 11:00 am"> {classes[3]} </td>
             <td data-labe="11:00 - 12:00 am"> {classes[1]} </td>
             <td data-labe="12:00 - 01:00 pm"> {classes[4]} </td>
-            <td data-labe="01:00 - 02:00 pm" class="break"> {"A"} </td>
+            <td data-labe="01:00 - 02:00 pm" className="break">
+              {" "}
+              {"A"}{" "}
+            </td>
             <td data-labe="02:00 - 03:00 pm">{classes[7]} </td>
-            <td data-labe="03:00 - 05:00 pm" colSpan="2"> {classes[3]} </td>
+            <td data-labe="03:00 - 05:00 pm" colSpan="2">
+              {" "}
+              {classes[3]}{" "}
+            </td>
             <td data-labe="05:00 - 06:00 pm"> {classes[10]} </td>
           </tr>
           <tr className="select">
-            <td data-labe="Day" class="day">Friday</td>
+            <td data-labe="Day" className="day">
+              Friday
+            </td>
             <td data-labe="10:00 - 11:00 am"> {classes[10]} </td>
-            <td data-labe="11:00 - 01:00 pm" colSpan="2"> {classes[4]} </td>
-            <td data-labe="01:00 - 02:00 pm" class="break"> {"K"} </td>
-            <td data-labe="02:00 - 04:00 pm" colSpan="2"> {classes[13]} </td>
-            <td data-labe="04:00 - 06:00 pm" colSpan="2"> {classes[10]} </td>
+            <td data-labe="11:00 - 01:00 pm" colSpan="2">
+              {" "}
+              {classes[4]}{" "}
+            </td>
+            <td data-labe="01:00 - 02:00 pm" className="break">
+              {" "}
+              {"K"}{" "}
+            </td>
+            <td data-labe="02:00 - 04:00 pm" colSpan="2">
+              {" "}
+              {classes[13]}{" "}
+            </td>
+            <td data-labe="04:00 - 06:00 pm" colSpan="2">
+              {" "}
+              {classes[10]}{" "}
+            </td>
           </tr>
         </tbody>
       </table>
