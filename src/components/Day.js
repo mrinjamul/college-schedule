@@ -74,11 +74,11 @@ function Day(props) {
             <th>10 am - 11 am</th>
             <th>11 am - 12 pm</th>
             <th>12 pm - 1 pm</th>
-            <th>1 pm - 2 pm</th>
-            <th>2 pm - 3 pm</th>
-            <th>3 pm - 4 pm</th>
-            <th>4 pm - 5 pm</th>
-            <th>5 pm - 6 pm</th>
+            <th>1 pm - 1:30 pm</th>
+            <th>1:30 pm - 2:30 pm</th>
+            <th>2:30 pm - 3:30 pm</th>
+            <th>3:30 pm - 4:30 pm</th>
+            <th>4:30 pm - 5:30 pm</th>
           </tr>
         </thead>
         <tbody>
