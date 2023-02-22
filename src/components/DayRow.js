@@ -69,10 +69,10 @@ const DayRow = (props) => {
   let data_labe_one = "10 am - 11 am";
   let data_labe_two = "11 am - 12 pm";
   let data_labe_three = "12 pm - 1 pm";
-  let data_labe_four = "2 pm - 3 pm";
-  let data_labe_five = "3 pm - 4 pm";
-  let data_labe_six = "4 pm - 5 pm";
-  let data_labe_seven = "5 pm - 6 pm";
+  let data_labe_four = "1:30 pm - 2:30 pm";
+  let data_labe_five = "2:30 pm - 3:30 pm";
+  let data_labe_six = "3:30 pm - 4:30 pm";
+  let data_labe_seven = "4:30 pm - 5:30 pm";
 
   if (col_one === "3") {
     data_labe_one = "10 am - 12 pm";
@@ -84,22 +84,22 @@ const DayRow = (props) => {
     data_labe_two = "11 am - 1 pm";
   }
   if (col_four === "4") {
-    data_labe_four = "2 pm - 6 pm";
+    data_labe_four = "1:30 pm - 5:30 pm";
   } else if (col_four === "3") {
-    data_labe_four = "2 pm - 5 pm";
-    data_labe_five = "3 pm - 6 pm";
+    data_labe_four = "1:30 pm - 4:30 pm";
+    data_labe_five = "2:30 pm - 5:30 pm";
   } else if (col_four === "2") {
-    data_labe_four = "2 pm - 3 pm";
-    data_labe_five = "3 pm - 4 pm";
+    data_labe_four = "1:30 pm - 2:30 pm";
+    data_labe_five = "2:30 pm - 3:30 pm";
   }
   if (col_five === "3") {
-    data_labe_five = "3 pm - 6 pm";
+    data_labe_five = "2:30 pm - 5:30 pm";
   } else if (col_five === "2") {
-    data_labe_five = "3 pm - 5 pm";
-    data_labe_six = "4 pm - 6 pm";
+    data_labe_five = "2:30 pm - 4:30 pm";
+    data_labe_six = "3:30 pm - 5:30 pm";
   }
   if (col_six === "2") {
-    data_labe_six = "4 pm - 6 pm";
+    data_labe_six = "3:30 pm - 5:30 pm";
   }
 
   return (
@@ -123,7 +123,7 @@ const DayRow = (props) => {
           {Class_3}{" "}
         </td>
       )}
-      <td data-labe="1 pm - 2 pm"> BREAK </td>
+      <td data-labe="1 pm - 1:30 pm"> BREAK </td>
       <td data-labe={data_labe_four} colSpan={col_four}>
         {" "}
         {Class_4}{" "}
