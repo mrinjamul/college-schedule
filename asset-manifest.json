@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/college-schedule/static/css/main.230782b4.css",
-    "main.js": "/college-schedule/static/js/main.1b860de6.js",
-    "static/js/496.3da9a70b.chunk.js": "/college-schedule/static/js/496.3da9a70b.chunk.js",
-    "service-worker.js": "/college-schedule/service-worker.js",
-    "index.html": "/college-schedule/index.html",
-    "main.230782b4.css.map": "/college-schedule/static/css/main.230782b4.css.map",
-    "main.1b860de6.js.map": "/college-schedule/static/js/main.1b860de6.js.map",
-    "496.3da9a70b.chunk.js.map": "/college-schedule/static/js/496.3da9a70b.chunk.js.map"
+    "main.css": "./static/css/main.230782b4.css",
+    "main.js": "./static/js/main.05ab0c55.js",
+    "static/js/496.3da9a70b.chunk.js": "./static/js/496.3da9a70b.chunk.js",
+    "service-worker.js": "./service-worker.js",
+    "index.html": "./index.html",
+    "main.230782b4.css.map": "./static/css/main.230782b4.css.map",
+    "main.05ab0c55.js.map": "./static/js/main.05ab0c55.js.map",
+    "496.3da9a70b.chunk.js.map": "./static/js/496.3da9a70b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.230782b4.css",
-    "static/js/main.1b860de6.js"
+    "static/js/main.05ab0c55.js"
   ]
 }
