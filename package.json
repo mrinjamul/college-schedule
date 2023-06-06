@@ -11,7 +11,7 @@
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^3.3.2",
-    "workbox-background-sync": "^6.6.0",
+    "workbox-background-sync": "^7.0.0",
     "workbox-broadcast-update": "^7.0.0",
     "workbox-cacheable-response": "^7.0.0",
     "workbox-core": "^7.0.0",
