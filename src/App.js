@@ -11,7 +11,7 @@ class App extends Component {
     this.state = {
       isLoading: true,
       updateOn: "Feb 22, 2023",
-      expires: "August 31, 2023",
+      expires: "August 31, 2099",
     };
   }
   componentDidMount() {
